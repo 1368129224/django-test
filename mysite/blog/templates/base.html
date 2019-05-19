@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="http://necolas.github.io/normalize.css/">
+    <link href="http://cnd.bootcss.com/bootstrap/3.3.7/css/bootstarp.min.css">
+</head>
+<body>
+    <div class="container">
+        {% block content %}
+        {% endblock %}
+    </div>
+<script src="http://cnd.bootcss.com/jquery/3.2.1/jquery.js"></script>
+<script src="http://cnd.bootcss.com/bootstrap/3.3.7/js/bootstarp.min.js"></script>
+</body>
+</html>
