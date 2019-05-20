@@ -5,30 +5,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <!--<link rel="stylesheet" type="text/css" href="http://unpkg.com/iview/dist/styles/iview.css">-->
-    <!--<script type="text/javascript" src="http://vuejs.org/js/vue.min.js"></script>-->
-    <!--<script type="text/javascript" src="http://unpkg.com/iview/dist/iview.min.js"></script>-->
-
 </head>
 <body>
+<div class="container-fluid">
 {% block content %}
 {% endblock %}
-</script>
-    <link rel="stylesheet" type="text/css" href="{% static 'polls/iview/styles/iview.css' %}">
-    <script type="text/javascript" src="{% static 'polls/js/vue.js' %}"></script>
-    <script type="text/javascript" src="{% static 'polls/iview/iview.js' %}"></script>
-    <script>
-        var vm = new Vue({
-            el: '#app',
-            data: {
-                visible: false
-            },
-            methods: {
-                show: function () {
-                    this.visible = true;
-                }
-            }
-        })
-      </script>
+</div>
+    <link rel="stylesheet" type="text/css" href="{% static 'polls/css/bootstrap.css' %}">
+    <script type="text/javascript" src="{% static 'polls/js/bootstrap.js' %}"></script>
 </body>
 </html>

@@ -3,19 +3,22 @@
 
 {% block content %}
 <link rel="stylesheet" type="text/css" href="{% static 'polls/css/style.css' %}">
-{% if latest_question_list %}
-<ul>
-    {% for question in latest_question_list %}
-    <h1><li><a href="{% url 'polls:detail' question.id %}">{{ question.question_text }}</a></li></h1>
-    {% endfor %}
-</ul>
-{% else %}
-<p>No polls are available.</p>
-{% endif %}
-<div id="app">
-    <i-button @click="show">Click me!</i-button>
-    <Modal v-model="visible" title="Welcome">Welcome to iView</Modal>
+<div class="row">
+    <div class="col">
+            {% if latest_question_list %}
+        <ul>
+            {% for question in latest_question_list %}
+            <h1><li><a href="{% url 'polls:detail' question.id %}">{{ question.question_text }}</a></li></h1>
+            {% endfor %}
+        </ul>
+        {% else %}
+        <p>No polls are available.</p>
+        {% endif %}
+    </div>
+    <div class="col">
+        2 of 2
+    </div>
 </div>
-{% endblock %}
 
+{% endblock %}
 
