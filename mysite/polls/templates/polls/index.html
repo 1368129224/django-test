@@ -2,43 +2,20 @@
 {% load static %}
 
 {% block content %}
-<link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}">
-
+<link rel="stylesheet" type="text/css" href="{% static 'polls/css/style.css' %}">
 {% if latest_question_list %}
-    <ul>
+<ul>
     {% for question in latest_question_list %}
-        <li><a href="{% url 'polls:detail' question.id %}">{{ question.question_text }}</a></li>
+    <h1><li><a href="{% url 'polls:detail' question.id %}">{{ question.question_text }}</a></li></h1>
     {% endfor %}
-    </ul>
+</ul>
 {% else %}
-    <p>No polls are available.</p>
+<p>No polls are available.</p>
 {% endif %}
-<div id="polls">
-    <i-button>test</i-button>
-</div>
-<!--<div id="app">-->
-<!--    <i-button>Click me!</i-button>-->
-<!--</div>-->
-<!--<script>-->
-<!--    new Vue({-->
-<!--        el: '#app',-->
-<!--    })-->
-<!--  </script>-->
 <div id="app">
     <i-button @click="show">Click me!</i-button>
     <Modal v-model="visible" title="Welcome">Welcome to iView</Modal>
 </div>
-<script>
-    new Vue({
-        el: '#app',
-        data: {
-            visible: false
-        },
-        methods: {
-            show: function () {
-                this.visible = true;
-            }
-        }
-    })
-  </script>
 {% endblock %}
+
+
