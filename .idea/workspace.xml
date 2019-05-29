@@ -2,14 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb9703c7-0bbe-4312-900b-270f41e92e22" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/django_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/django-test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/django_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/django_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MxOnline/MxOnline/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/MxOnline/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MxOnline/MxOnline/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/MxOnline/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MxOnline/course/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/course/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MxOnline/course/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/course/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MxOnline/course/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/course/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MxOnline/course/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/course/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MxOnline/course/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/course/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MxOnline/course/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/course/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MxOnline/course/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/course/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MxOnline/operation/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/operation/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MxOnline/operation/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/operation/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MxOnline/operation/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/operation/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MxOnline/operation/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/operation/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MxOnline/operation/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/operation/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MxOnline/operation/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/operation/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MxOnline/operation/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/operation/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MxOnline/organization/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/organization/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MxOnline/organization/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/organization/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MxOnline/organization/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/organization/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MxOnline/organization/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/organization/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MxOnline/organization/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/organization/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MxOnline/organization/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/organization/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MxOnline/organization/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/organization/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MxOnline/users/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/users/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MxOnline/users/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/users/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MxOnline/users/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/users/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MxOnline/users/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/users/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MxOnline/users/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/users/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MxOnline/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/users/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MxOnline/users/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/users/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MxOnline/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/users/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,31 +45,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MxOnline/users/models.py">
+        <entry file="file://$PROJECT_DIR$/MxOnline/apps/users/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="836">
+              <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
               <folding>
-                <element signature="e#0#28#0" expanded="true" />
+                <element signature="e#0#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MxOnline/MxOnline/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="43" column="15" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MxOnline/MxOnline/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+            <state relative-caret-position="505">
+              <caret line="128" column="1" selection-start-line="128" selection-start-column="1" selection-end-line="128" selection-end-column="1" />
+              <folding>
+                <element signature="e#309#318#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -58,25 +77,75 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>../</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>/static/</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/MyShop/MyShop/settings.py" />
-        <option value="$PROJECT_DIR$/apps/__init__.py" />
         <option value="$PROJECT_DIR$/apps/users/models.py" />
         <option value="$PROJECT_DIR$/MyShop/settings.py" />
         <option value="$PROJECT_DIR$/users/models.py" />
         <option value="$PROJECT_DIR$/MxOnline/users/models.py" />
         <option value="$PROJECT_DIR$/MxOnline/users/__init__.py" />
         <option value="$PROJECT_DIR$/MxOnline/MxOnline/__init__.py" />
+        <option value="$PROJECT_DIR$/MxOnline/apps/users/models.py" />
+        <option value="$PROJECT_DIR$/MxOnline/apps/course/models.py" />
+        <option value="$PROJECT_DIR$/MxOnline/apps/organization/models.py" />
+        <option value="$PROJECT_DIR$/MxOnline/apps/operation/models.py" />
+        <option value="$PROJECT_DIR$/MxOnline/apps/users/adminx.py" />
+        <option value="$PROJECT_DIR$/MxOnline/apps/users/apps.py" />
+        <option value="$PROJECT_DIR$/MxOnline/apps/users/__init__.py" />
+        <option value="$PROJECT_DIR$/MxOnline/apps/course/apps.py" />
+        <option value="$PROJECT_DIR$/MxOnline/apps/course/__init__.py" />
+        <option value="$PROJECT_DIR$/MxOnline/apps/operation/__init__.py" />
+        <option value="$PROJECT_DIR$/MxOnline/apps/organization/apps.py" />
+        <option value="$PROJECT_DIR$/MxOnline/apps/organization/__init__.py" />
+        <option value="$PROJECT_DIR$/MxOnline/apps/operation/apps.py" />
+        <option value="$PROJECT_DIR$/MxOnline/apps/course/adminx.py" />
+        <option value="$PROJECT_DIR$/MxOnline/apps/operation/adminx.py" />
+        <option value="$PROJECT_DIR$/MxOnline/apps/organization/adminx.py" />
+        <option value="$PROJECT_DIR$/MxOnline/static/html/403.html" />
+        <option value="$PROJECT_DIR$/MxOnline/static/html/404.html" />
+        <option value="$PROJECT_DIR$/MxOnline/static/html/500.html" />
+        <option value="$PROJECT_DIR$/MxOnline/static/html/course-comment.html" />
+        <option value="$PROJECT_DIR$/MxOnline/static/html/course-detail.html" />
+        <option value="$PROJECT_DIR$/MxOnline/static/html/course-list.html" />
+        <option value="$PROJECT_DIR$/MxOnline/static/html/course-video.html" />
+        <option value="$PROJECT_DIR$/MxOnline/static/html/forgetpwd.html" />
+        <option value="$PROJECT_DIR$/MxOnline/static/html/index.html" />
+        <option value="$PROJECT_DIR$/MxOnline/static/html/login.html" />
+        <option value="$PROJECT_DIR$/MxOnline/static/html/org-detail-course.html" />
+        <option value="$PROJECT_DIR$/MxOnline/static/html/org-detail-desc.html" />
+        <option value="$PROJECT_DIR$/MxOnline/static/html/org-detail-homepage.html" />
+        <option value="$PROJECT_DIR$/MxOnline/static/html/org-detail-teachers.html" />
+        <option value="$PROJECT_DIR$/MxOnline/static/html/org-list.html" />
+        <option value="$PROJECT_DIR$/MxOnline/static/html/register.html" />
+        <option value="$PROJECT_DIR$/MxOnline/static/html/teacher-detail.html" />
+        <option value="$PROJECT_DIR$/MxOnline/static/html/teachers-list.html" />
+        <option value="$PROJECT_DIR$/MxOnline/static/html/usercenter-fav-course.html" />
+        <option value="$PROJECT_DIR$/MxOnline/static/html/usercenter-fav-org.html" />
+        <option value="$PROJECT_DIR$/MxOnline/static/html/usercenter-fav-teacher.html" />
+        <option value="$PROJECT_DIR$/MxOnline/static/html/usercenter-info.html" />
+        <option value="$PROJECT_DIR$/MxOnline/static/html/usercenter-message.html" />
+        <option value="$PROJECT_DIR$/MxOnline/static/html/usercenter-mycourse.html" />
+        <option value="$PROJECT_DIR$/MxOnline/MxOnline/urls.py" />
+        <option value="$PROJECT_DIR$/MxOnline/templates/login.html" />
+        <option value="$PROJECT_DIR$/MxOnline/templates/index.html" />
+        <option value="$PROJECT_DIR$/MxOnline/apps/users/views.py" />
         <option value="$PROJECT_DIR$/MxOnline/MxOnline/settings.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1057" />
@@ -89,6 +158,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -105,19 +175,24 @@
               <item name="django_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="django_test" type="462c0819:PsiDirectoryNode" />
               <item name="MxOnline" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django_test" type="462c0819:PsiDirectoryNode" />
+              <item name="MxOnline" type="462c0819:PsiDirectoryNode" />
               <item name="MxOnline" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="django_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="django_test" type="462c0819:PsiDirectoryNode" />
               <item name="MxOnline" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -125,10 +200,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.templateLanguages.PyTemplateLanguageModulesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\django_test\MxOnline\apps" />
       <recent name="G:\django_test\apps" />
       <recent name="G:\django_test" />
     </key>
@@ -156,12 +232,14 @@
       <option name="presentableId" value="Default" />
       <updated>1558962746497</updated>
       <workItem from="1558962748722" duration="1854000" />
-      <workItem from="1558964616172" duration="2844000" />
+      <workItem from="1558964616172" duration="2878000" />
+      <workItem from="1559022030231" duration="4990000" />
+      <workItem from="1559096044798" duration="4299000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4698000" />
+    <option name="totallyTimeSpent" value="14021000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -173,9 +251,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="953" y="0" width="974" height="1057" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.124200426" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26258206" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -189,7 +267,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32618025" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -225,48 +303,841 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MyShop/MyShop/settings.py" />
-    <entry file="file://$PROJECT_DIR$/apps/users/models.py" />
-    <entry file="file://$PROJECT_DIR$/MyShop/settings.py" />
     <entry file="file://$PROJECT_DIR$/apps/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/users/models.py">
+    <entry file="file://$PROJECT_DIR$/users/models.py" />
+    <entry file="file://$PROJECT_DIR$/MxOnline/MxOnline/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        <state relative-caret-position="22">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/apps/course/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MxOnline/users/models.py">
+    <entry file="file://$PROJECT_DIR$/MxOnline/MxOnline/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/apps/organization/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="503">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MxOnline/users/__init__.py">
+    <entry file="file://$PROJECT_DIR$/MxOnline/apps/operation/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="61" column="24" lean-forward="true" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/apps/users/adminx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/apps/users/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/apps/users/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/apps/operation/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-line="1" selection-end-column="28" />
+          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/apps/course/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/apps/operation/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/apps/organization/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/apps/organization/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/apps/course/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/extra_apps/xadmin/sites.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="123" selection-start-line="123" selection-end-line="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/apps/course/adminx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="58" column="57" selection-start-line="58" selection-start-column="57" selection-end-line="58" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/apps/operation/adminx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/apps/organization/adminx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/static/html/403.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/static/html/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/static/html/500.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/static/html/course-comment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10706">
+          <caret line="487" column="21" selection-start-line="487" selection-start-column="21" selection-end-line="487" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#18291#18297#0" expanded="true" />
+            <element signature="e#18297#18303#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/static/html/course-detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6130">
+          <caret line="279" column="21" selection-start-line="279" selection-start-column="21" selection-end-line="279" selection-end-column="21" />
+          <folding>
+            <element signature="e#4690#4696#0" expanded="true" />
+            <element signature="e#4696#4702#0" expanded="true" />
+            <element signature="e#4702#4708#0" expanded="true" />
+            <element signature="e#4708#4714#0" expanded="true" />
+            <element signature="e#4714#4720#0" expanded="true" />
+            <element signature="e#4807#4813#0" expanded="true" />
+            <element signature="e#4814#4820#0" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#7238#7244#0" expanded="true" />
+            <element signature="e#7245#7251#0" expanded="true" />
+            <element signature="e#7254#7260#0" expanded="true" />
+            <element signature="e#7260#7266#0" expanded="true" />
+            <element signature="e#7266#7272#0" expanded="true" />
+            <element signature="e#7272#7278#0" expanded="true" />
+            <element signature="e#7278#7284#0" expanded="true" />
+            <element signature="e#7403#7409#0" expanded="true" />
+            <element signature="e#7410#7416#0" expanded="true" />
+            <element signature="e#7419#7425#0" expanded="true" />
+            <element signature="e#7425#7431#0" expanded="true" />
+            <element signature="e#7431#7437#0" expanded="true" />
+            <element signature="e#7437#7443#0" expanded="true" />
+            <element signature="e#7443#7449#0" expanded="true" />
+            <element signature="e#7510#7516#0" expanded="true" />
+            <element signature="e#7516#7522#0" expanded="true" />
+            <element signature="e#7543#7549#0" expanded="true" />
+            <element signature="e#7549#7555#0" expanded="true" />
+            <element signature="e#7555#7561#0" expanded="true" />
+            <element signature="e#7561#7567#0" expanded="true" />
+            <element signature="e#7567#7573#0" expanded="true" />
+            <element signature="e#7573#7579#0" expanded="true" />
+            <element signature="e#7579#7585#0" expanded="true" />
+            <element signature="e#7586#7592#0" expanded="true" />
+            <element signature="e#7626#7632#0" expanded="true" />
+            <element signature="e#7632#7638#0" expanded="true" />
+            <element signature="e#8070#8076#0" expanded="true" />
+            <element signature="e#8077#8083#0" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#3;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#5;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#6;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#7;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#2;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#3;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#4;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#5;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#6;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#7;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#h1#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#5;n#div#1;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#h3#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#6;n#div#1;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#7;n#div#1;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#h3#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#9;n#div#1;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#h3#2;n#div#1;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/static/html/course-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10420">
+          <caret line="474" column="21" selection-start-line="474" selection-start-column="21" selection-end-line="474" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#5022#5028#0" expanded="true" />
+            <element signature="e#5028#5034#0" expanded="true" />
+            <element signature="e#6219#6225#0" expanded="true" />
+            <element signature="e#6225#6231#0" expanded="true" />
+            <element signature="e#7390#7396#0" expanded="true" />
+            <element signature="e#7396#7402#0" expanded="true" />
+            <element signature="e#8558#8564#0" expanded="true" />
+            <element signature="e#8564#8570#0" expanded="true" />
+            <element signature="e#9765#9771#0" expanded="true" />
+            <element signature="e#9771#9777#0" expanded="true" />
+            <element signature="e#10934#10940#0" expanded="true" />
+            <element signature="e#10940#10946#0" expanded="true" />
+            <element signature="e#12133#12139#0" expanded="true" />
+            <element signature="e#12139#12145#0" expanded="true" />
+            <element signature="e#13328#13334#0" expanded="true" />
+            <element signature="e#13334#13340#0" expanded="true" />
+            <element signature="e#14524#14530#0" expanded="true" />
+            <element signature="e#14530#14536#0" expanded="true" />
+            <element signature="e#15722#15728#0" expanded="true" />
+            <element signature="e#15728#15734#0" expanded="true" />
+            <element signature="e#16913#16919#0" expanded="true" />
+            <element signature="e#16919#16925#0" expanded="true" />
+            <element signature="e#18101#18107#0" expanded="true" />
+            <element signature="e#18107#18113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/static/html/course-video.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9562">
+          <caret line="435" column="21" selection-start-line="435" selection-start-column="21" selection-end-line="435" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#12938#12944#0" expanded="true" />
+            <element signature="e#12944#12950#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/static/html/forgetpwd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2302">
+          <caret line="105" column="21" selection-start-line="105" selection-start-column="21" selection-end-line="105" selection-end-column="21" />
+          <folding>
+            <element signature="e#880#886#0" expanded="true" />
+            <element signature="e#886#892#0" expanded="true" />
+            <element signature="e#892#898#0" expanded="true" />
+            <element signature="e#898#904#0" expanded="true" />
+            <element signature="e#904#910#0" expanded="true" />
+            <element signature="e#910#916#0" expanded="true" />
+            <element signature="e#1089#1095#0" expanded="true" />
+            <element signature="e#1096#1102#0" expanded="true" />
+            <element signature="e#1103#1109#0" expanded="true" />
+            <element signature="e#1286#1292#0" expanded="true" />
+            <element signature="e#1292#1298#0" expanded="true" />
+            <element signature="e#1299#1305#0" expanded="true" />
+            <element signature="e#1305#1311#0" expanded="true" />
+            <element signature="e#3564#3570#0" expanded="true" />
+            <element signature="e#3570#3576#0" expanded="true" />
+            <element signature="e#3576#3582#0" expanded="true" />
+            <element signature="e#3582#3588#0" expanded="true" />
+            <element signature="e#3588#3594#0" expanded="true" />
+            <element signature="e#3826#3832#0" expanded="true" />
+            <element signature="e#3833#3839#0" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#form#0;n#div#2;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/static/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12708">
+          <caret line="578" column="48" selection-start-line="578" selection-start-column="48" selection-end-line="578" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/static/html/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2060">
+          <caret line="94" column="21" selection-start-line="94" selection-start-column="21" selection-end-line="94" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#p#3;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#4;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#3132#3138#0" expanded="true" />
+            <element signature="e#3139#3145#0" expanded="true" />
+            <element signature="e#3364#3370#0" expanded="true" />
+            <element signature="e#3370#3376#0" expanded="true" />
+            <element signature="e#3376#3382#0" expanded="true" />
+            <element signature="e#3382#3388#0" expanded="true" />
+            <element signature="e#3388#3394#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/static/html/org-detail-course.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5008">
+          <caret line="228" column="43" selection-start-line="228" selection-start-column="43" selection-end-line="228" selection-end-column="43" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#div#0;n#div#1;n#div#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/static/html/org-detail-desc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3248">
+          <caret line="148" column="43" selection-start-line="148" selection-start-column="43" selection-end-line="148" selection-end-column="43" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#div#0;n#div#1;n#div#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2836#2842#0" expanded="true" />
+            <element signature="e#2843#2849#0" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#1;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#h1#0;n#div#1;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#div#1;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#h3#0;n#div#1;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#3;n#div#1;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#4;n#div#1;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#h3#1;n#div#1;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#6;n#div#1;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#h3#2;n#div#1;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/static/html/org-detail-homepage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5052">
+          <caret line="230" column="43" selection-start-line="230" selection-start-column="43" selection-end-line="230" selection-end-column="43" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#div#0;n#div#1;n#div#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#2;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6301#6307#0" expanded="true" />
+            <element signature="e#6308#6314#0" expanded="true" />
+            <element signature="e#6318#6324#0" expanded="true" />
+            <element signature="e#6325#6331#0" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#1;n#div#3;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#h1#0;n#div#1;n#div#3;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#1;n#div#3;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#h3#0;n#div#1;n#div#3;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#div#1;n#div#3;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#3;n#div#1;n#div#3;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#h3#1;n#div#1;n#div#3;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#5;n#div#1;n#div#3;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#h3#2;n#div#1;n#div#3;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/static/html/org-detail-teachers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4106">
+          <caret line="187" column="43" selection-start-line="187" selection-start-column="43" selection-end-line="187" selection-end-column="43" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#div#0;n#div#1;n#div#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/static/html/org-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9406">
+          <caret line="429" column="21" selection-start-line="429" selection-start-column="21" selection-end-line="429" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#dd#0;n#dl#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#2;n#ul#0;n#dd#0;n#dl#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#dd#0;n#dl#1;n#div#0;n#div#2;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#2;n#ul#0;n#dd#0;n#dl#1;n#div#0;n#div#2;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#dd#0;n#dl#2;n#div#0;n#div#2;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#2;n#ul#0;n#dd#0;n#dl#2;n#div#0;n#div#2;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#dd#0;n#dl#3;n#div#0;n#div#2;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#2;n#ul#0;n#dd#0;n#dl#3;n#div#0;n#div#2;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#dd#0;n#dl#4;n#div#0;n#div#2;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#2;n#ul#0;n#dd#0;n#dl#4;n#div#0;n#div#2;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/static/html/password_reset.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-65" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/static/html/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3644">
+          <caret line="166" column="21" selection-start-line="166" selection-start-column="21" selection-end-line="166" selection-end-column="21" />
+          <folding>
+            <element signature="e#822#828#0" expanded="true" />
+            <element signature="e#828#834#0" expanded="true" />
+            <element signature="e#834#840#0" expanded="true" />
+            <element signature="e#840#846#0" expanded="true" />
+            <element signature="e#846#852#0" expanded="true" />
+            <element signature="e#852#858#0" expanded="true" />
+            <element signature="e#1168#1174#0" expanded="true" />
+            <element signature="n#style#0;n#p#3;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#4;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#7054#7060#0" expanded="true" />
+            <element signature="e#7060#7066#0" expanded="true" />
+            <element signature="e#7066#7072#0" expanded="true" />
+            <element signature="e#7072#7078#0" expanded="true" />
+            <element signature="e#7078#7084#0" expanded="true" />
+            <element signature="e#7332#7338#0" expanded="true" />
+            <element signature="e#7338#7344#0" expanded="true" />
+            <element signature="e#7344#7350#0" expanded="true" />
+            <element signature="e#7350#7356#0" expanded="true" />
+            <element signature="e#7356#7362#0" expanded="true" />
+            <element signature="e#7635#7641#0" expanded="true" />
+            <element signature="e#7642#7648#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/static/html/teachers-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5096">
+          <caret line="232" column="21" selection-start-line="232" selection-start-column="21" selection-end-line="232" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#3159#3165#0" expanded="true" />
+            <element signature="e#3165#3171#0" expanded="true" />
+            <element signature="e#3171#3177#0" expanded="true" />
+            <element signature="e#4341#4347#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/static/html/usercenter-fav-course.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9496">
+          <caret line="432" column="138" selection-start-line="432" selection-start-column="138" selection-end-line="432" selection-end-column="138" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#7490#7496#0" expanded="true" />
+            <element signature="e#7496#7502#0" expanded="true" />
+            <element signature="e#7503#7509#0" expanded="true" />
+            <element signature="e#7509#7515#0" expanded="true" />
+            <element signature="n#style#0;n#p#3;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#4;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#10614#10620#0" expanded="true" />
+            <element signature="e#10620#10626#0" expanded="true" />
+            <element signature="e#10626#10632#0" expanded="true" />
+            <element signature="e#10632#10638#0" expanded="true" />
+            <element signature="e#10638#10644#0" expanded="true" />
+            <element signature="e#10644#10650#0" expanded="true" />
+            <element signature="e#10839#10845#0" expanded="true" />
+            <element signature="e#10846#10852#0" expanded="true" />
+            <element signature="e#10853#10859#0" expanded="true" />
+            <element signature="e#11052#11058#0" expanded="true" />
+            <element signature="e#11058#11064#0" expanded="true" />
+            <element signature="e#11065#11071#0" expanded="true" />
+            <element signature="e#11071#11077#0" expanded="true" />
+            <element signature="e#12004#12010#0" expanded="true" />
+            <element signature="e#12010#12016#0" expanded="true" />
+            <element signature="e#12016#12022#0" expanded="true" />
+            <element signature="e#12022#12028#0" expanded="true" />
+            <element signature="e#12028#12034#0" expanded="true" />
+            <element signature="e#12034#12040#0" expanded="true" />
+            <element signature="e#12620#12626#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/static/html/usercenter-fav-org.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9782">
+          <caret line="445" column="138" selection-start-line="445" selection-start-column="138" selection-end-line="445" selection-end-column="138" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#dd#0;n#dl#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#dd#0;n#dl#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#7757#7763#0" expanded="true" />
+            <element signature="e#7763#7769#0" expanded="true" />
+            <element signature="e#7770#7776#0" expanded="true" />
+            <element signature="e#7776#7782#0" expanded="true" />
+            <element signature="n#style#0;n#p#3;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#4;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#10881#10887#0" expanded="true" />
+            <element signature="e#10887#10893#0" expanded="true" />
+            <element signature="e#10893#10899#0" expanded="true" />
+            <element signature="e#10899#10905#0" expanded="true" />
+            <element signature="e#10905#10911#0" expanded="true" />
+            <element signature="e#10911#10917#0" expanded="true" />
+            <element signature="e#11106#11112#0" expanded="true" />
+            <element signature="e#11113#11119#0" expanded="true" />
+            <element signature="e#11120#11126#0" expanded="true" />
+            <element signature="e#11319#11325#0" expanded="true" />
+            <element signature="e#11325#11331#0" expanded="true" />
+            <element signature="e#11332#11338#0" expanded="true" />
+            <element signature="e#11338#11344#0" expanded="true" />
+            <element signature="e#12271#12277#0" expanded="true" />
+            <element signature="e#12277#12283#0" expanded="true" />
+            <element signature="e#12283#12289#0" expanded="true" />
+            <element signature="e#12289#12295#0" expanded="true" />
+            <element signature="e#12295#12301#0" expanded="true" />
+            <element signature="e#12301#12307#0" expanded="true" />
+            <element signature="e#12887#12893#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/static/html/usercenter-fav-teacher.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9892">
+          <caret line="450" column="138" selection-start-line="450" selection-start-column="138" selection-end-line="450" selection-end-column="138" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#8436#8442#0" expanded="true" />
+            <element signature="e#8442#8448#0" expanded="true" />
+            <element signature="e#8449#8455#0" expanded="true" />
+            <element signature="e#8455#8461#0" expanded="true" />
+            <element signature="n#style#0;n#p#3;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#4;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#11560#11566#0" expanded="true" />
+            <element signature="e#11566#11572#0" expanded="true" />
+            <element signature="e#11572#11578#0" expanded="true" />
+            <element signature="e#11578#11584#0" expanded="true" />
+            <element signature="e#11584#11590#0" expanded="true" />
+            <element signature="e#11590#11596#0" expanded="true" />
+            <element signature="e#11785#11791#0" expanded="true" />
+            <element signature="e#11792#11798#0" expanded="true" />
+            <element signature="e#11799#11805#0" expanded="true" />
+            <element signature="e#11998#12004#0" expanded="true" />
+            <element signature="e#12004#12010#0" expanded="true" />
+            <element signature="e#12011#12017#0" expanded="true" />
+            <element signature="e#12017#12023#0" expanded="true" />
+            <element signature="e#12950#12956#0" expanded="true" />
+            <element signature="e#12956#12962#0" expanded="true" />
+            <element signature="e#12962#12968#0" expanded="true" />
+            <element signature="e#12968#12974#0" expanded="true" />
+            <element signature="e#12974#12980#0" expanded="true" />
+            <element signature="e#12980#12986#0" expanded="true" />
+            <element signature="e#13566#13572#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/static/html/usercenter-info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9606">
+          <caret line="437" column="138" selection-start-line="437" selection-start-column="138" selection-end-line="437" selection-end-column="138" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#label#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#5015#5021#0" expanded="true" />
+            <element signature="e#5021#5027#0" expanded="true" />
+            <element signature="e#5027#5033#0" expanded="true" />
+            <element signature="e#5033#5039#0" expanded="true" />
+            <element signature="e#5039#5045#0" expanded="true" />
+            <element signature="e#5045#5051#0" expanded="true" />
+            <element signature="e#5051#5057#0" expanded="true" />
+            <element signature="e#5265#5271#0" expanded="true" />
+            <element signature="e#5271#5277#0" expanded="true" />
+            <element signature="e#5277#5283#0" expanded="true" />
+            <element signature="e#5283#5289#0" expanded="true" />
+            <element signature="e#5289#5295#0" expanded="true" />
+            <element signature="e#5295#5301#0" expanded="true" />
+            <element signature="e#5301#5307#0" expanded="true" />
+            <element signature="e#5503#5509#0" expanded="true" />
+            <element signature="e#5509#5515#0" expanded="true" />
+            <element signature="e#5515#5521#0" expanded="true" />
+            <element signature="e#5521#5527#0" expanded="true" />
+            <element signature="e#5527#5533#0" expanded="true" />
+            <element signature="e#5533#5539#0" expanded="true" />
+            <element signature="e#5539#5545#0" expanded="true" />
+            <element signature="e#5562#5568#0" expanded="true" />
+            <element signature="e#5568#5574#0" expanded="true" />
+            <element signature="e#5574#5580#0" expanded="true" />
+            <element signature="e#5580#5586#0" expanded="true" />
+            <element signature="e#5586#5592#0" expanded="true" />
+            <element signature="e#5665#5671#0" expanded="true" />
+            <element signature="e#5671#5677#0" expanded="true" />
+            <element signature="e#5677#5683#0" expanded="true" />
+            <element signature="e#5683#5689#0" expanded="true" />
+            <element signature="e#5689#5695#0" expanded="true" />
+            <element signature="e#5695#5701#0" expanded="true" />
+            <element signature="e#5822#5828#0" expanded="true" />
+            <element signature="e#5828#5834#0" expanded="true" />
+            <element signature="e#5834#5840#0" expanded="true" />
+            <element signature="e#5840#5846#0" expanded="true" />
+            <element signature="e#5846#5852#0" expanded="true" />
+            <element signature="e#5852#5858#0" expanded="true" />
+            <element signature="e#5858#5864#0" expanded="true" />
+            <element signature="e#6072#6078#0" expanded="true" />
+            <element signature="e#6078#6084#0" expanded="true" />
+            <element signature="e#6085#6091#0" expanded="true" />
+            <element signature="e#6091#6097#0" expanded="true" />
+            <element signature="e#6281#6287#0" expanded="true" />
+            <element signature="e#6287#6293#0" expanded="true" />
+            <element signature="e#6293#6299#0" expanded="true" />
+            <element signature="e#6299#6305#0" expanded="true" />
+            <element signature="e#6305#6311#0" expanded="true" />
+            <element signature="e#6311#6317#0" expanded="true" />
+            <element signature="e#6317#6323#0" expanded="true" />
+            <element signature="e#8326#8332#0" expanded="true" />
+            <element signature="e#8332#8338#0" expanded="true" />
+            <element signature="e#8339#8345#0" expanded="true" />
+            <element signature="e#8345#8351#0" expanded="true" />
+            <element signature="n#style#0;n#p#3;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#4;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#11450#11456#0" expanded="true" />
+            <element signature="e#11456#11462#0" expanded="true" />
+            <element signature="e#11462#11468#0" expanded="true" />
+            <element signature="e#11468#11474#0" expanded="true" />
+            <element signature="e#11474#11480#0" expanded="true" />
+            <element signature="e#11480#11486#0" expanded="true" />
+            <element signature="e#11675#11681#0" expanded="true" />
+            <element signature="e#11682#11688#0" expanded="true" />
+            <element signature="e#11689#11695#0" expanded="true" />
+            <element signature="e#11888#11894#0" expanded="true" />
+            <element signature="e#11894#11900#0" expanded="true" />
+            <element signature="e#11901#11907#0" expanded="true" />
+            <element signature="e#11907#11913#0" expanded="true" />
+            <element signature="e#12840#12846#0" expanded="true" />
+            <element signature="e#12846#12852#0" expanded="true" />
+            <element signature="e#12852#12858#0" expanded="true" />
+            <element signature="e#12858#12864#0" expanded="true" />
+            <element signature="e#12864#12870#0" expanded="true" />
+            <element signature="e#12870#12876#0" expanded="true" />
+            <element signature="e#13456#13462#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/static/html/usercenter-message.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9408">
+          <caret line="428" column="138" selection-start-line="428" selection-start-column="138" selection-end-line="428" selection-end-column="138" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6018#6024#0" expanded="true" />
+            <element signature="e#6024#6030#0" expanded="true" />
+            <element signature="e#6031#6037#0" expanded="true" />
+            <element signature="e#6037#6043#0" expanded="true" />
+            <element signature="n#style#0;n#p#3;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#4;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#9142#9148#0" expanded="true" />
+            <element signature="e#9148#9154#0" expanded="true" />
+            <element signature="e#9154#9160#0" expanded="true" />
+            <element signature="e#9160#9166#0" expanded="true" />
+            <element signature="e#9166#9172#0" expanded="true" />
+            <element signature="e#9172#9178#0" expanded="true" />
+            <element signature="e#9367#9373#0" expanded="true" />
+            <element signature="e#9374#9380#0" expanded="true" />
+            <element signature="e#9381#9387#0" expanded="true" />
+            <element signature="e#9580#9586#0" expanded="true" />
+            <element signature="e#9586#9592#0" expanded="true" />
+            <element signature="e#9593#9599#0" expanded="true" />
+            <element signature="e#9599#9605#0" expanded="true" />
+            <element signature="e#10532#10538#0" expanded="true" />
+            <element signature="e#10538#10544#0" expanded="true" />
+            <element signature="e#10544#10550#0" expanded="true" />
+            <element signature="e#10550#10556#0" expanded="true" />
+            <element signature="e#10556#10562#0" expanded="true" />
+            <element signature="e#10562#10568#0" expanded="true" />
+            <element signature="e#11148#11154#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/static/html/teacher-detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6020">
+          <caret line="274" column="21" selection-start-line="274" selection-start-column="21" selection-end-line="274" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#4620#4626#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/static/html/usercenter-mycourse.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10978">
+          <caret line="499" column="138" selection-start-line="499" selection-start-column="138" selection-end-line="499" selection-end-column="138" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#11349#11355#0" expanded="true" />
+            <element signature="e#11355#11361#0" expanded="true" />
+            <element signature="e#11362#11368#0" expanded="true" />
+            <element signature="e#11368#11374#0" expanded="true" />
+            <element signature="n#style#0;n#p#3;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#4;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#14473#14479#0" expanded="true" />
+            <element signature="e#14479#14485#0" expanded="true" />
+            <element signature="e#14485#14491#0" expanded="true" />
+            <element signature="e#14491#14497#0" expanded="true" />
+            <element signature="e#14497#14503#0" expanded="true" />
+            <element signature="e#14503#14509#0" expanded="true" />
+            <element signature="e#14698#14704#0" expanded="true" />
+            <element signature="e#14705#14711#0" expanded="true" />
+            <element signature="e#14712#14718#0" expanded="true" />
+            <element signature="e#14911#14917#0" expanded="true" />
+            <element signature="e#14917#14923#0" expanded="true" />
+            <element signature="e#14924#14930#0" expanded="true" />
+            <element signature="e#14930#14936#0" expanded="true" />
+            <element signature="e#15863#15869#0" expanded="true" />
+            <element signature="e#15869#15875#0" expanded="true" />
+            <element signature="e#15875#15881#0" expanded="true" />
+            <element signature="e#15881#15887#0" expanded="true" />
+            <element signature="e#15887#15893#0" expanded="true" />
+            <element signature="e#15893#15899#0" expanded="true" />
+            <element signature="e#16479#16485#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/apps/users/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="38" selection-start-line="38" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/MxOnline/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <folding>
+            <element signature="e#632#664#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#1;n#div#0;n#div#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/apps/users/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MxOnline/MxOnline/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="43" column="15" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MxOnline/MxOnline/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        <state relative-caret-position="505">
+          <caret line="128" column="1" selection-start-line="128" selection-start-column="1" selection-end-line="128" selection-end-column="1" />
+          <folding>
+            <element signature="e#309#318#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
