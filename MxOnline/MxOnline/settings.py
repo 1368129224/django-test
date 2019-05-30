@@ -131,6 +131,12 @@ AUTHENTICATION_BACKENDS = (
 
 AUTH_USER_MODEL = 'users.UserProfile'
 
+EMAIL_HOST = "smtp.qq.com"  # SMTP服务器主机
+EMAIL_PORT = 25             # 端口
+EMAIL_HOST_USER = "zzc1368129224@qq.com"       # 邮箱地址
+EMAIL_HOST_PASSWORD = "epjakvzxpmaehhbd"    # 密码
+EMAIL_USE_TLS= True
+EMAIL_FROM = "zzc1368129224@qq.com"            # 邮箱地址
 
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/

@@ -6,10 +6,7 @@
       <change beforePath="$PROJECT_DIR$/MxOnline/MxOnline/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/MxOnline/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MxOnline/MxOnline/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/MxOnline/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MxOnline/apps/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/users/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MxOnline/static/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/static/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MxOnline/static/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/static/css/reset.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MxOnline/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MxOnline/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MxOnline/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/templates/register.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,8 +33,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MxOnline/apps/users/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1144">
-              <caret line="52" column="61" lean-forward="true" selection-start-line="52" selection-start-column="61" selection-end-line="52" selection-end-column="61" />
+            <state relative-caret-position="894">
+              <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -45,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MxOnline/MxOnline/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
-              <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+            <state relative-caret-position="572">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="e#632#664#0" expanded="true" />
               </folding>
@@ -60,26 +57,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MxOnline/templates/register.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3278">
-              <caret line="149" column="55" lean-forward="true" selection-start-line="149" selection-start-column="28" selection-end-line="149" selection-end-column="55" />
+            <state relative-caret-position="499">
+              <caret line="155" column="37" lean-forward="true" selection-start-line="155" selection-start-column="37" selection-end-line="155" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MxOnline/static/css/reset.css">
+        <entry file="file://$PROJECT_DIR$/MxOnline/templates/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
-              <caret line="89" column="1" selection-start-line="89" selection-start-column="1" selection-end-line="89" selection-end-column="1" />
+            <state relative-caret-position="477">
+              <caret line="90" column="20" selection-start-line="90" selection-start-column="20" selection-end-line="90" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MxOnline/static/css/login.css">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MxOnline/apps/utils/email_send.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="271" column="16" lean-forward="true" selection-start-line="271" selection-start-column="16" selection-end-line="271" selection-end-column="16" />
+            <state relative-caret-position="88">
+              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -102,6 +99,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -120,8 +118,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/MxOnline/MxOnline/__init__.py" />
-        <option value="$PROJECT_DIR$/MxOnline/apps/users/models.py" />
         <option value="$PROJECT_DIR$/MxOnline/apps/course/models.py" />
         <option value="$PROJECT_DIR$/MxOnline/apps/organization/models.py" />
         <option value="$PROJECT_DIR$/MxOnline/apps/operation/models.py" />
@@ -164,13 +160,15 @@
         <option value="$PROJECT_DIR$/../python-envhome/django_test/Lib/site-packages/django/db/backends/mysql/operations.py" />
         <option value="$PROJECT_DIR$/MxOnline/templates/login.html" />
         <option value="$PROJECT_DIR$/MxOnline/templates/index.html" />
-        <option value="$PROJECT_DIR$/MxOnline/MxOnline/urls.py" />
-        <option value="$PROJECT_DIR$/MxOnline/MxOnline/settings.py" />
         <option value="$PROJECT_DIR$/MxOnline/apps/users/form.py" />
-        <option value="$PROJECT_DIR$/MxOnline/templates/register.html" />
-        <option value="$PROJECT_DIR$/MxOnline/apps/users/views.py" />
         <option value="$PROJECT_DIR$/MxOnline/static/css/reset.css" />
         <option value="$PROJECT_DIR$/MxOnline/static/css/login.css" />
+        <option value="$PROJECT_DIR$/MxOnline/MxOnline/settings.py" />
+        <option value="$PROJECT_DIR$/MxOnline/templates/active_fail.html" />
+        <option value="$PROJECT_DIR$/MxOnline/apps/utils/email_send.py" />
+        <option value="$PROJECT_DIR$/MxOnline/apps/users/views.py" />
+        <option value="$PROJECT_DIR$/MxOnline/templates/register.html" />
+        <option value="$PROJECT_DIR$/MxOnline/MxOnline/urls.py" />
       </list>
     </option>
   </component>
@@ -210,7 +208,7 @@
               <item name="django_test" type="462c0819:PsiDirectoryNode" />
               <item name="MxOnline" type="462c0819:PsiDirectoryNode" />
               <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="django_test" type="b2602c69:ProjectViewProjectNode" />
@@ -245,6 +243,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -285,12 +284,13 @@
       <workItem from="1559022030231" duration="4990000" />
       <workItem from="1559096044798" duration="4299000" />
       <workItem from="1559181972054" duration="751000" />
-      <workItem from="1559182734670" duration="5431000" />
+      <workItem from="1559182734670" duration="5575000" />
+      <workItem from="1559195684303" duration="4211000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20203000" />
+    <option name="totallyTimeSpent" value="24558000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -303,9 +303,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1057" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20787746" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18818381" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -355,33 +354,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MxOnline/apps/organization/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MxOnline/apps/operation/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="61" column="24" lean-forward="true" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MxOnline/apps/users/adminx.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MxOnline/apps/users/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -1130,29 +1102,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MxOnline/templates/login.html">
+    <entry file="file://$PROJECT_DIR$/MxOnline/static/css/reset.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="84" column="26" selection-start-line="84" selection-start-column="26" selection-end-line="84" selection-end-column="26" />
+        <state relative-caret-position="609">
+          <caret line="89" column="1" selection-start-line="89" selection-start-column="1" selection-end-line="89" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MxOnline/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="46" column="85" selection-start-line="46" selection-start-column="85" selection-end-line="46" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MxOnline/MxOnline/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="51" column="14" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
-          <folding>
-            <element signature="e#309#318#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/../python-envhome/django_test/Lib/site-packages/utils/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/MxOnline/apps/users/form.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1164,44 +1122,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MxOnline/MxOnline/urls.py">
+    <entry file="file://$PROJECT_DIR$/MxOnline/static/css/login.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+        <state relative-caret-position="343">
+          <caret line="310" column="1" selection-start-line="310" selection-start-column="1" selection-end-line="310" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/templates/active_fail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
           <folding>
-            <element signature="e#632#664#0" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/apps/utils/email_send.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/MxOnline/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="138" column="10" selection-start-line="138" selection-end-line="138" selection-end-column="10" />
+          <folding>
+            <element signature="e#309#318#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MxOnline/apps/users/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1144">
-          <caret line="52" column="61" lean-forward="true" selection-start-line="52" selection-start-column="61" selection-end-line="52" selection-end-column="61" />
+        <state relative-caret-position="894">
+          <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9086">
+          <caret line="46" column="85" selection-start-line="46" selection-start-column="85" selection-end-line="46" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="90" column="20" selection-start-line="90" selection-start-column="20" selection-end-line="90" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MxOnline/templates/register.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3278">
-          <caret line="149" column="55" lean-forward="true" selection-start-line="149" selection-start-column="28" selection-end-line="149" selection-end-column="55" />
+        <state relative-caret-position="499">
+          <caret line="155" column="37" lean-forward="true" selection-start-line="155" selection-start-column="37" selection-end-line="155" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MxOnline/static/css/reset.css">
+    <entry file="file://$PROJECT_DIR$/MxOnline/MxOnline/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="89" column="1" selection-start-line="89" selection-start-column="1" selection-end-line="89" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MxOnline/static/css/login.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="271" column="16" lean-forward="true" selection-start-line="271" selection-start-column="16" selection-end-line="271" selection-end-column="16" />
+        <state relative-caret-position="572">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#632#664#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
