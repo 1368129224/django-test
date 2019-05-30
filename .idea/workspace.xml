@@ -2,39 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb9703c7-0bbe-4312-900b-270f41e92e22" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/django_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/django_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MxOnline/MxOnline/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/MxOnline/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MxOnline/MxOnline/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/MxOnline/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MxOnline/course/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/course/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MxOnline/course/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/course/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MxOnline/course/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/course/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MxOnline/course/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/course/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MxOnline/course/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/course/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MxOnline/course/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/course/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MxOnline/course/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/course/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MxOnline/operation/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/operation/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MxOnline/operation/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/operation/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MxOnline/operation/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/operation/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MxOnline/operation/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/operation/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MxOnline/operation/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/operation/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MxOnline/operation/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/operation/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MxOnline/operation/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/operation/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MxOnline/organization/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/organization/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MxOnline/organization/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/organization/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MxOnline/organization/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/organization/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MxOnline/organization/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/organization/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MxOnline/organization/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/organization/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MxOnline/organization/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/organization/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MxOnline/organization/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/organization/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MxOnline/users/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/users/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MxOnline/users/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/users/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MxOnline/users/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/users/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MxOnline/users/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/users/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MxOnline/users/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/users/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MxOnline/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/users/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MxOnline/users/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/users/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MxOnline/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/users/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MxOnline/apps/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/apps/users/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MxOnline/static/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/static/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MxOnline/static/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/static/css/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MxOnline/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MxOnline/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/MxOnline/templates/login.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,13 +17,27 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MxOnline/apps/users/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="836">
-              <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
+            <state relative-caret-position="1144">
+              <caret line="52" column="61" lean-forward="true" selection-start-line="52" selection-start-column="61" selection-end-line="52" selection-end-column="61" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -56,13 +45,52 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MxOnline/MxOnline/settings.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MxOnline/MxOnline/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="128" column="1" selection-start-line="128" selection-start-column="1" selection-end-line="128" selection-end-column="1" />
+            <state relative-caret-position="499">
+              <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
               <folding>
-                <element signature="e#309#318#0" expanded="true" />
+                <element signature="e#632#664#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MxOnline/templates/register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3278">
+              <caret line="149" column="55" lean-forward="true" selection-start-line="149" selection-start-column="28" selection-end-line="149" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MxOnline/static/css/reset.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="489">
+              <caret line="89" column="1" selection-start-line="89" selection-start-column="1" selection-end-line="89" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MxOnline/static/css/login.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="271" column="16" lean-forward="true" selection-start-line="271" selection-start-column="16" selection-end-line="271" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MxOnline/apps/users/form.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" column="26" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,6 +108,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>../</find>
+      <find>form-group</find>
     </findStrings>
     <replaceStrings>
       <replace>/static/</replace>
@@ -91,11 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/apps/users/models.py" />
-        <option value="$PROJECT_DIR$/MyShop/settings.py" />
-        <option value="$PROJECT_DIR$/users/models.py" />
-        <option value="$PROJECT_DIR$/MxOnline/users/models.py" />
-        <option value="$PROJECT_DIR$/MxOnline/users/__init__.py" />
         <option value="$PROJECT_DIR$/MxOnline/MxOnline/__init__.py" />
         <option value="$PROJECT_DIR$/MxOnline/apps/users/models.py" />
         <option value="$PROJECT_DIR$/MxOnline/apps/course/models.py" />
@@ -137,11 +161,16 @@
         <option value="$PROJECT_DIR$/MxOnline/static/html/usercenter-info.html" />
         <option value="$PROJECT_DIR$/MxOnline/static/html/usercenter-message.html" />
         <option value="$PROJECT_DIR$/MxOnline/static/html/usercenter-mycourse.html" />
-        <option value="$PROJECT_DIR$/MxOnline/MxOnline/urls.py" />
+        <option value="$PROJECT_DIR$/../python-envhome/django_test/Lib/site-packages/django/db/backends/mysql/operations.py" />
         <option value="$PROJECT_DIR$/MxOnline/templates/login.html" />
         <option value="$PROJECT_DIR$/MxOnline/templates/index.html" />
-        <option value="$PROJECT_DIR$/MxOnline/apps/users/views.py" />
+        <option value="$PROJECT_DIR$/MxOnline/MxOnline/urls.py" />
         <option value="$PROJECT_DIR$/MxOnline/MxOnline/settings.py" />
+        <option value="$PROJECT_DIR$/MxOnline/apps/users/form.py" />
+        <option value="$PROJECT_DIR$/MxOnline/templates/register.html" />
+        <option value="$PROJECT_DIR$/MxOnline/apps/users/views.py" />
+        <option value="$PROJECT_DIR$/MxOnline/static/css/reset.css" />
+        <option value="$PROJECT_DIR$/MxOnline/static/css/login.css" />
       </list>
     </option>
   </component>
@@ -158,7 +187,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -181,7 +209,27 @@
               <item name="django_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="django_test" type="462c0819:PsiDirectoryNode" />
               <item name="MxOnline" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="users" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django_test" type="462c0819:PsiDirectoryNode" />
               <item name="MxOnline" type="462c0819:PsiDirectoryNode" />
+              <item name="MxOnline" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django_test" type="462c0819:PsiDirectoryNode" />
+              <item name="MxOnline" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django_test" type="462c0819:PsiDirectoryNode" />
+              <item name="MxOnline" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="django_test" type="b2602c69:ProjectViewProjectNode" />
@@ -193,6 +241,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -200,7 +249,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.templateLanguages.PyTemplateLanguageModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -235,11 +284,13 @@
       <workItem from="1558964616172" duration="2878000" />
       <workItem from="1559022030231" duration="4990000" />
       <workItem from="1559096044798" duration="4299000" />
+      <workItem from="1559181972054" duration="751000" />
+      <workItem from="1559182734670" duration="5431000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14021000" />
+    <option name="totallyTimeSpent" value="20203000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -252,8 +303,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1057" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26258206" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20787746" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -267,13 +319,13 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.22426869" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32932165" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.124200426" />
@@ -303,28 +355,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/apps/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/users/models.py" />
-    <entry file="file://$PROJECT_DIR$/MxOnline/MxOnline/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MxOnline/apps/course/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MxOnline/MxOnline/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/MxOnline/apps/organization/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="503">
@@ -405,13 +435,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MxOnline/extra_apps/xadmin/sites.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="123" selection-start-line="123" selection-end-line="123" />
         </state>
       </provider>
     </entry>
@@ -1093,51 +1116,92 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/extra_apps/xadmin/sites.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python-envhome/django_test/Lib/site-packages/django/db/backends/mysql/operations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="145" column="28" selection-start-line="145" selection-start-column="28" selection-end-line="145" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MxOnline/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="84" column="26" selection-start-line="84" selection-start-column="26" selection-end-line="84" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
+          <caret line="46" column="85" selection-start-line="46" selection-start-column="85" selection-end-line="46" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/MxOnline/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="51" column="14" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
+          <folding>
+            <element signature="e#309#318#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/apps/users/form.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MxOnline/MxOnline/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        <state relative-caret-position="499">
+          <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
           <folding>
             <element signature="e#632#664#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MxOnline/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#1;n#div#0;n#div#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MxOnline/apps/users/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
+        <state relative-caret-position="1144">
+          <caret line="52" column="61" lean-forward="true" selection-start-line="52" selection-start-column="61" selection-end-line="52" selection-end-column="61" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MxOnline/MxOnline/settings.py">
+    <entry file="file://$PROJECT_DIR$/MxOnline/templates/register.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="128" column="1" selection-start-line="128" selection-start-column="1" selection-end-line="128" selection-end-column="1" />
-          <folding>
-            <element signature="e#309#318#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="3278">
+          <caret line="149" column="55" lean-forward="true" selection-start-line="149" selection-start-column="28" selection-end-line="149" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/static/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="89" column="1" selection-start-line="89" selection-start-column="1" selection-end-line="89" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MxOnline/static/css/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="271" column="16" lean-forward="true" selection-start-line="271" selection-start-column="16" selection-end-line="271" selection-end-column="16" />
         </state>
       </provider>
     </entry>

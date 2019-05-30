@@ -84,3 +84,7 @@ html { overflow-y: scroll; }
     visibility: hidden;
 }
 .hide{display: none!important;}
+
+.captcha{
+    margin-top: 0;
+}

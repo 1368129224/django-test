@@ -48,7 +48,8 @@ INSTALLED_APPS = [
     'organization',
     'MxOnline',
     'xadmin',
-    'crispy_forms'
+    'crispy_forms',
+    'captcha',
 ]
 
 MIDDLEWARE = [

@@ -243,7 +243,7 @@ a:hover{
     margin-bottom:20px;
 }
 .marb8{
-    margin-bottom:8px;
+    margin-bottom:20px;
 }
 .marb38{
     margin-bottom:38px;
@@ -272,6 +272,7 @@ a:hover{
 .captcha1 > img{
     float:right;
     margin-top:5px;
+    height: 28px;
 }
 .verify-code{
     float:left;
