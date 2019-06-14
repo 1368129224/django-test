@@ -9,15 +9,24 @@
     <title>Polls</title>
 </head>
 <body>
-	<div class="container">
-		<div class="row">
-		<h2>栅格系统</h2>
-		</div>
-	</div>
-    <div class="container">
-
+<div class="container">
     <div class="row">
-        <div class="col-4" style="background-color:lavender;">.col-2</div>
+        <h2>栅格系统</h2>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-4" style="background-color:lavender;">
+            {% if latest_question_list %}
+                <ul>
+                    {% for question in latest_question_list %}
+                        <li><a href="/polls/{{ question.id }}/">{{ question.question_text }}</a></li>
+                    {% endfor %}
+                </ul>
+            {% else %}
+                <p>No polls are available.</p>
+            {% endif %}
+        </div>
         <div class="col-8" style="background-color:lavenderblush;">.col-6</div>
     </div>
 </div>
