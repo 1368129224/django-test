@@ -17,10 +17,15 @@ from django.contrib import admin
 from django.urls import path, include
 from mytest import views as mytest_views
 from polls import views as polls_views
+from login import views as login_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', polls_views.main_index, name='index'),
+    path('login/', login_views.login, name='login'),
+    path('register/', login_views.register),
+    path('logout/', login_views.logout),
     path('polls/', include('polls.urls')),
-    path('mytest/', include('mytest.urls'))
+    path('mytest/', include('mytest.urls')),
+    path('captcha/', include('captcha.urls'))
 ]
