@@ -24,7 +24,8 @@ urlpatterns = [
     path('', polls_views.main_index, name='index'),
     path('login/', login_views.login, name='login'),
     path('register/', login_views.register),
-    path('logout/', login_views.logout),
+    path('logout/', login_views.logout, name='logout'),
+    path('confirm/', login_views.user_confirm),
     path('polls/', include('polls.urls')),
     path('mytest/', include('mytest.urls')),
     path('captcha/', include('captcha.urls'))

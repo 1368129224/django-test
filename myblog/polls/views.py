@@ -1,4 +1,4 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, get_object_or_404, redirect
 from django.http import HttpResponse, HttpResponseRedirect
 from django.urls import reverse
 from django.views import generic
@@ -14,6 +14,11 @@ def main_index(request):
 class IndexView(generic.ListView):
     template_name = 'polls/index.html'
     context_object_name = 'latest_question_list'
+
+    def get(self, request, *args, **kwargs):
+        if not request.session.get('is_login', None):
+            return redirect('/login/')
+        return render(request, 'login/index.html')
 
     def get_queryset(self):
         """Return the last five published questions."""
