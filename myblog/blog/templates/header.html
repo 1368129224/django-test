@@ -1,0 +1,25 @@
+{% load static %}
+
+<div>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark" role="navigation">
+        <a class="navbar-brand" href={% url 'index' %}><img src='{% static 'blog/img/logo.png' %}' alt="Logo" width='40px' height="40px"></a>
+        <ul class="navbar-nav navbar-left">
+            <li class="nav-item"><a class="nav-link" href={% url 'index' %}>新泽雪冬的Blog</a></li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+            {% if user.is_authenticated %}
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        {{ user.username }}
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="{% url 'password_change' %}">修改密码</a>
+                    </div>
+                </li>
+                <li class="nav-item"><a class="nav-link" href='{% url 'alogout' %}'>Logout</a></li>
+            {% else %}
+                <li class="nav-item"><a class="nav-link" href='{% url 'alogin' %}'>Login</a></li>
+            {% endif %}
+        </ul>
+    </nav>
+</div>

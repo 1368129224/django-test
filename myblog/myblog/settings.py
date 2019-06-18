@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'polls',
     'login',
     'captcha',
+    'blog',
+    'account',
 ]
 
 MIDDLEWARE = [
@@ -103,6 +105,8 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+LOGIN_REDIRECT_URL = '/blog/'
+LOGIN_URL = '/account/login'
 
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
@@ -135,3 +139,4 @@ EMAIL_HOST_USER = 'zzc1368129224@qq.com'
 EMAIL_HOST_PASSWORD = 'wxeezqzgpuafjafc'
 
 CONFIRM_DAYS = 3
+

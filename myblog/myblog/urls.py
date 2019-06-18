@@ -18,15 +18,19 @@ from django.urls import path, include
 from mytest import views as mytest_views
 from polls import views as polls_views
 from login import views as login_views
+from account import views as account_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', polls_views.main_index, name='index'),
     path('login/', login_views.login, name='login'),
+    # path('alogin/', account_views.user_login, name='alogin'),
     path('register/', login_views.register),
     path('logout/', login_views.logout, name='logout'),
     path('confirm/', login_views.user_confirm),
     path('polls/', include('polls.urls')),
     path('mytest/', include('mytest.urls')),
-    path('captcha/', include('captcha.urls'))
+    path('captcha/', include('captcha.urls')),
+    path('blog/', include('blog.urls')),
+    path('account/', include('account.urls')),
 ]
