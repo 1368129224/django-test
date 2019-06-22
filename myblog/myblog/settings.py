@@ -137,6 +137,8 @@ EMAIL_HOST = 'smtp.qq.com'
 EMAIL_PORT = 25
 EMAIL_HOST_USER = 'zzc1368129224@qq.com'
 EMAIL_HOST_PASSWORD = 'wxeezqzgpuafjafc'
+EMAIL_TLS = True
+DEFAULT_FROM_EMAIL = 'zzc1368129224@qq.com'
 
 CONFIRM_DAYS = 3
 
