@@ -16,9 +16,9 @@
                         <a class="dropdown-item" href="{% url 'account:password_change' %}">修改密码</a>
                     </div>
                 </li>
-                <li class="nav-item"><a class="nav-link" href='{% url 'account:alogout' %}'>Logout</a></li>
+                <li class="nav-item"><a class="nav-link" href='{% url 'account:logout' %}'>Logout</a></li>
             {% else %}
-                <li class="nav-item"><a class="nav-link" href='{% url 'account:alogin' %}'>Login</a></li>
+                <li class="nav-item"><a class="nav-link" href='{% url 'account:login' %}'>Login</a></li>
             {% endif %}
         </ul>
     </nav>

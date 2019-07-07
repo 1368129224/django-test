@@ -5,9 +5,9 @@ from . import views
 
 app_name = 'account'
 urlpatterns = [
-    path('login/', auth_views.LoginView.as_view(template_name='account/login.html'), name='alogin'),
-    path('logout/', auth_views.LogoutView.as_view(template_name='account/logout.html'), name='alogout'),
-    path('register/', views.register, name='aregister'),
+    path('login/', auth_views.LoginView.as_view(template_name='account/login.html'), name='login'),
+    path('logout/', auth_views.LogoutView.as_view(template_name='account/logout.html'), name='logout'),
+    path('register/', views.register, name='register'),
     path('change-password/', auth_views.PasswordChangeView.as_view(template_name='account/password_change_form.html'), name='password_change'),
     path('change-password-done/', auth_views.PasswordChangeDoneView.as_view(template_name='account/password_change_done.html'), name='password_change_done'),
     path('password-reset',

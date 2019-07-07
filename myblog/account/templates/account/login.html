@@ -14,9 +14,9 @@
             <p>Input your username and password</p>
 
             {% if next %}
-                <form class="form-horizontal" action="{% url 'alogin' %}?next={{next}}" method="post" >
+                <form class="form-horizontal" action="{% url 'account:login' %}?next={{next}}" method="post" >
             {% else %}
-                <form class="form-horizontal" action="{% url 'alogin' %}" method="post">
+                <form class="form-horizontal" action="{% url 'account:login' %}" method="post">
             {% endif %}
 
             <form class="form-horizontal" action="." method="post">
@@ -38,7 +38,7 @@
                 <input type="submit" class="btn btn-primary btn-lg" value="Login">
             </form>
             <div>
-                <p>没有账号？<a href="{% url 'aregister' %}">点此注册</a></p>
+                <p>没有账号？<a href="{% url 'account:register' %}">点此注册</a></p>
             </div>
         </div>
     </div>

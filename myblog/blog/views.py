@@ -3,7 +3,9 @@ from .models import BlogArticles
 
 # Create your views here.
 def index(request):
-    return render(request, 'blog/index.html', {'articles': BlogArticles.objects.all()})
+    context = {'articles': BlogArticles.objects.all(), }
+    print(type(BlogArticles.objects.all()))
+    return render(request, 'blog/index.html', context)
 
 def article(request, id):
-    return render(request, 'blog/article.html', {'article': get_object_or_404(BlogArticles, pk=id)})
+    return render(request, 'blog/article.html', {'article': get_object_or_404(BlogArticles, pk=id), })
