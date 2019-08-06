@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}blog titles{% endblock %}
+{% block content %}
+<div class="row">
+    <h1 class="m-auto">我的博客</h1>
+</div>
+<div class="row">
+    <div class="col-xs-12 col-md-8"> 
+    <ul>
+    {% for blog in blogs %}
+        <li><a href="article/{{ blog.id }}">{{ blog.title }}</a></li>
+    {% endfor %}
+    </ul>
+    </div>
+    <div class="col-xs-6 col-md-4">
+    <h2>Avatar</h2>
+    <img width="400px" src="{% static 'image/Avatar.jpg' %}">
+    </div>
+</div>
+{% endblock %}

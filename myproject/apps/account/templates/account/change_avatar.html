@@ -1,0 +1,51 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Change avatar</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link href="{% static 'css/cropper.css' %}" type="text/css" />
+</head>
+<body>
+{% include "header.html" %}
+
+{% if avatar == 0 %}
+    <img id="image" class="image" width="270px" src="{% static 'image/Avatar.jpg' %}" alt="avatar" />
+{% else %}
+    <img id="image" class="image" width="270px" src="{{ avatar }}" alt="avatar" />
+{% endif %}
+<form method="post" action=".">
+    {% csrf_token %}
+    {{ avatar_form }}
+    <input id="avatar" type="file" name="avatar" accept="image/png,image/jpg,image/jpeg,image/bmp"/>
+    <button class="btn-primary btn" id="upload" type="submit">修改头像</button>
+</form>
+
+{% include "footer.html" %}
+
+<script src="{% static 'js/jquery-3.4.1.min.js' %}"> </script>
+<script src="{% static 'js/popper.min.js' %}"></script>
+<script src="{% static 'js/bootstrap.js' %}"></script>
+{#<script>#}
+{#    $('#upload').on('click', function(){#}
+{#        var img = document.getElementById("imageFile").files[0];#}
+{#        $.ajax({#}
+{#            url: '{% url "account:my_avatar" %}',#}
+{#            type: 'POST',#}
+{#            data: {"avatar": img},#}
+{#            success: function(e){#}
+{#                if (e == "1") {#}
+{#                    alert("修改成功！返回个人信息页。");#}
+{#                    window.location.href="account/my-info/"#}
+{#                } else {#}
+{#                    alert("sorry, you are not lucky. the picutre can't been uploaded.")#}
+{#                }#}
+{#            }#}
+{#        });#}
+{#    });#}
+{#</script>#}
+</body>
+</html>
