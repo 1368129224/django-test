@@ -2,20 +2,22 @@
 {% load static %}
 {% block title %}blog titles{% endblock %}
 {% block content %}
-<div class="row">
-    <h1 class="m-auto">我的博客</h1>
-</div>
-<div class="row">
-    <div class="col-xs-12 col-md-8"> 
-    <ul>
-    {% for blog in blogs %}
-        <li><a href="article/{{ blog.id }}">{{ blog.title }}</a></li>
-    {% endfor %}
-    </ul>
+    <div class="row">
+        <h1 class="m-auto">我的博客</h1>
     </div>
-    <div class="col-xs-6 col-md-4">
-    <h2>Avatar</h2>
-    <img width="400px" src="{% static 'image/Avatar.jpg' %}">
+    <div class="row">
+        <div class="col-xs-12 col-md-8">
+            <ul>
+                {% for blog in blogs %}
+                    <li><a href="article/{{ blog.id }}">{{ blog.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% if request.user.is_authenticated %}
+            <div class="col-xs-6 col-md-4">
+                <h2>Avatar</h2>
+                <img src="{{ userinfo.avatar.url }}" class="img-circle" width="270px" id="my_photo" name="user_face">
+            </div>
+        {% endif %}
     </div>
-</div>
 {% endblock %}

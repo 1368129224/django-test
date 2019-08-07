@@ -1,3 +1,5 @@
+import os
+from myproject.settings import BASE_DIR
 from django.shortcuts import render, HttpResponse, get_object_or_404
 from django.http import HttpResponseRedirect, JsonResponse
 from django.contrib.auth.decorators import login_required
@@ -66,22 +68,39 @@ def change_my_info(request):
 
 @login_required(login_url='/account/login/')
 def my_avatar(request):
-    print(request.user.id)
-    userinfo = get_object_or_404(UserInfo, id=request.user.id)
-    print(userinfo)
+    # userinfo = get_object_or_404(UserInfo, id=request.user.id)
+    userinfo = UserInfo.objects.get(user_id=request.user.id)
     if request.method == 'POST':
+        if request.FILES == {}:
+            avatar_form = AvatarForm()
+            return render(request, 'account/change_avatar.html',
+                          {'avatar': userinfo.avatar.url, 'avatar_form': avatar_form})
         avatar_form = AvatarForm(request.POST, request.FILES)
+        # TODO:更改上传文件的文件名
         if avatar_form.is_valid():
             avatar_form_cd = avatar_form.cleaned_data
-            userinfo.avatar = avatar_form_cd['avatar']
-            userinfo.save()
-            # userinfo = get_object_or_404(UserInfo, user=user.id)
-            # userinfo.avatar = avatar_form.cleaned_data['avatar']
+            avatar = avatar_form_cd['avatar']
+            ext = avatar.name.split('.')[-1]
+            if userinfo.avatar.url == 'avatar/Avatar.jpg':
+                avatar.name = str(request.user.id) + '.' + ext
+                userinfo.avatar = avatar_form_cd['avatar']
+                userinfo.save()
+            else:
+                old_avatar = userinfo.avatar.url
+                # linux下删除下一行
+                old_avatar = old_avatar.replace('/', '\\')
+                avatar_path = BASE_DIR + old_avatar
+                print(avatar_path)
+                if os.path.exists(avatar_path):
+                    os.remove(avatar_path)
+                    print('done')
+                avatar.name = str(request.user.id) + '.' + ext
+                userinfo.avatar = avatar_form_cd['avatar']
+                userinfo.save()
+
+            # userinfo.avatar = avatar_form_cd['avatar']
             # userinfo.save()
-        return HttpResponseRedirect('/account/my-avatar/')
+        return HttpResponseRedirect('/account/my-info/')
     else:
         avatar_form = AvatarForm()
-        if userinfo.avatar:
-            return render(request, 'account/change_avatar.html', {'avatar': userinfo.avatar.url, 'avatar_form': avatar_form})
-        else:
-            return render(request, 'account/change_avatar.html', {'avatar': 0, 'avatar_form': avatar_form})
+        return render(request, 'account/change_avatar.html', {'avatar': userinfo.avatar.url, 'avatar_form': avatar_form})

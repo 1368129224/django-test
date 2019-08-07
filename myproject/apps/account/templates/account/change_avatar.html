@@ -17,10 +17,10 @@
 {% else %}
     <img id="image" class="image" width="270px" src="{{ avatar }}" alt="avatar" />
 {% endif %}
-<form method="post" action=".">
+
+<form method="post" action="." enctype="multipart/form-data">
     {% csrf_token %}
     {{ avatar_form }}
-    <input id="avatar" type="file" name="avatar" accept="image/png,image/jpg,image/jpeg,image/bmp"/>
     <button class="btn-primary btn" id="upload" type="submit">修改头像</button>
 </form>
 

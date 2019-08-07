@@ -45,8 +45,8 @@
             </div>
 
             <div class="col-md-6">
-                {% if userinfo.photo %}
-                    <img src="{{ userinfo.avatar.url }}" class="img-circle" id="my_photo" name="user_face">
+                {% if userinfo.avatar %}
+                    <img src="{{ userinfo.avatar.url }}" class="img-circle" width="270px" id="my_photo" name="user_face">
                 {% else %}
                     <img name="user_face" src="{% static 'image/Avatar.jpg' %}" class="img-circle" width="270px" id="my_photo">
                 {% endif %}
