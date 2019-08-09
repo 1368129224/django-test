@@ -9,14 +9,20 @@
     <title>{% block title %}{% endblock %}</title>
     <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
 </head>
+
 <body>
-<div class="container">
-{% include "header.html" %}
-    {% block content %}
-    {% endblock %}
+{% include "article/header.html" %}
+<div class="row" style="width: 100%">
+    <div class="col-md-2" >
+        {% include 'article/leftslider.html' %}
+    </div>
+    <div class="col-md-10" >
+        {% block content %}
+        {% endblock %}
+    </div>
 </div>
 {% include "footer.html" %}
-<script src="{% static 'js/jquery-3.4.1.min.js' %}"> </script>
+<script src="{% static 'js/jquery-3.4.1.min.js' %}"></script>
 <script src="{% static 'js/popper.min.js' %}"></script>
 <script src="{% static 'js/bootstrap.js' %}"></script>
 </body>

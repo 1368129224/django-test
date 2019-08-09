@@ -12,8 +12,9 @@
             <li class="nav-item dropdown">
                 <a class="nav-link" href="#" data-toggle="dropdown">{{ user.username }}</a>
                 <div class="dropdown-menu" style="min-width: 4rem;max-width: 8rem">
-                    <a class="dropdown-item" href="{% url 'account:password_change' %}">修改密码</a>
                     <a class="dropdown-item" href="{% url 'account:my_info' %}">我的信息</a>
+                    <a class="dropdown-item" href="{% url 'article:article_column' %}">后台管理</a>
+                    <a class="dropdown-item" href="{% url 'account:password_change' %}">修改密码</a>
                 </div>
             </li>
             <li class="nav-item">

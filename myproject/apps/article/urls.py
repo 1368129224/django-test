@@ -17,9 +17,12 @@ from django.conf import settings
 from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path, include
+from . import views
 
 app_name = 'article'
 urlpatterns = [
-    path('', include('blog.urls')),
+    path('article-column/', views.article_column, name='article_column'),
+    path('rename-column/', views.rename_article_column, name='rename_article_column'),
+    path('del-column/', views.del_article_column, name='del_article_column')
 ]
 
