@@ -48,7 +48,7 @@
                     $.ajax({
                         url:'{% url "article:article_column" %}',
                         type:'POST',
-                        data:{'column':column_name},
+                        data:{'column':column_name, csrfmiddlewaretoken:'{{ csrf_token }}'},
                         success:function (e) {
                             if(e=='1'){
                                 parent.location.reload();
@@ -79,7 +79,7 @@
                     $.ajax({
                         url: "{% url 'article:rename_article_column' %}",
                         type: "POST",
-                        data: {"column_id": column_id, "column_name": new_name},
+                        data: {"column_id": column_id, "column_name": new_name, csrfmiddlewaretoken:'{{ csrf_token }}'},
                         success: function(e){
                             if(e=="1"){
                                 parent.location.reload();
@@ -105,7 +105,7 @@
                     $.ajax({
                         url:'{% url "article:del_article_column" %}',
                         type:'POST',
-                        data:{'column_id': column_id},
+                        data:{'column_id': column_id, csrfmiddlewaretoken:'{{ csrf_token }}'},
                         success: function (e) {
                             if(e=='1'){
                                 parent.location.reload();

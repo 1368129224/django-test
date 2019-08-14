@@ -13,10 +13,10 @@
 <body>
 {% include "article/header.html" %}
 <div class="row" style="width: 100%">
-    <div class="col-md-2" >
+    <div class="col-md-2 offset-1" >
         {% include 'article/leftslider.html' %}
     </div>
-    <div class="col-md-10" >
+    <div class="col-md-8" >
         {% block content %}
         {% endblock %}
     </div>
@@ -25,5 +25,6 @@
 <script src="{% static 'js/jquery-3.4.1.min.js' %}"></script>
 <script src="{% static 'js/popper.min.js' %}"></script>
 <script src="{% static 'js/bootstrap.js' %}"></script>
+<script type="text/javascript" src='{% static "layer/layer.js" %}'></script>
 </body>
 </html>

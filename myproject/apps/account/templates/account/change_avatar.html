@@ -7,45 +7,112 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Change avatar</title>
     <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
-    <link href="{% static 'css/cropper.css' %}" type="text/css" />
+    <link rel="stylesheet" href="{% static 'css/cropbox.css' %}" />
 </head>
 <body>
 {% include "header.html" %}
 
-{% if avatar == 0 %}
-    <img id="image" class="image" width="270px" src="{% static 'image/Avatar.jpg' %}" alt="avatar" />
-{% else %}
-    <img id="image" class="image" width="270px" src="{{ avatar }}" alt="avatar" />
-{% endif %}
+<style>
+    body
+    {
+        width: 100%;
+    }
+    .my-container
+    {
+        position: relative;
+        width: 100%;
+        padding: 2% 4%;
+    }
+    .action
+    {
 
-<form method="post" action="." enctype="multipart/form-data">
-    {% csrf_token %}
-    {{ avatar_form }}
-    <button class="btn-primary btn" id="upload" type="submit">修改头像</button>
-</form>
+        width: 500px;
+        height: 30px;
+        margin: 10px 20%;
+    }
+    .cropped
+    {
+        margin-left: 10%;
+        width: 198px;
+        height: 198px;
+        position: absolute;
+        bottom: 20%;
+    }
+    #image{
+        margin-left: 10%;
+        position: absolute;
+    }
+</style>
+
+<div class="my-container" >
+    <div class="imageBox">
+        <div class="thumbBox"></div>
+        <div class="spinner" style="display: none">Loading...</div>
+    </div>
+    <img id="image" class="image" src="{{ avatar }}" alt="avatar" />
+    <div class="cropped" style="display: inline-block;">
+
+    </div>
+    <div class="action">
+        <input type="file" id="file" style="float:left; width: 250px">
+        <input type="button" id="btnUpload" value="Upload" style="float: right">
+        <input type="button" id="btnCrop" value="Crop" style="float: right">
+        <input type="button" id="btnZoomIn" value="+" style="float: right">
+        <input type="button" id="btnZoomOut" value="-" style="float: right">
+    </div>
+
+</div>
 
 {% include "footer.html" %}
 
 <script src="{% static 'js/jquery-3.4.1.min.js' %}"> </script>
 <script src="{% static 'js/popper.min.js' %}"></script>
 <script src="{% static 'js/bootstrap.js' %}"></script>
-{#<script>#}
-{#    $('#upload').on('click', function(){#}
-{#        var img = document.getElementById("imageFile").files[0];#}
-{#        $.ajax({#}
-{#            url: '{% url "account:my_avatar" %}',#}
-{#            type: 'POST',#}
-{#            data: {"avatar": img},#}
-{#            success: function(e){#}
-{#                if (e == "1") {#}
-{#                    alert("修改成功！返回个人信息页。");#}
-{#                    window.location.href="account/my-info/"#}
-{#                } else {#}
-{#                    alert("sorry, you are not lucky. the picutre can't been uploaded.")#}
-{#                }#}
-{#            }#}
-{#        });#}
-{#    });#}
-{#</script>#}
+<script src="{% static 'js/cropbox-min.js' %}"></script>
+<script type="text/javascript">
+    window.onload = function() {
+        var options =
+            {
+                imageBox: '.imageBox',
+                thumbBox: '.thumbBox',
+                spinner: '.spinner',
+                imgSrc: '{% static "image/Avatar.png" %}'
+            };
+        var cropper = new cropbox(options);
+        document.querySelector('#file').addEventListener('change', function(){
+            var reader = new FileReader();
+            reader.onload = function(e) {
+                options.imgSrc = e.target.result;
+                cropper = new cropbox(options);
+            };
+            reader.readAsDataURL(this.files[0]);
+            {#this.files = [];#}
+        });
+        document.querySelector('#btnCrop').addEventListener('click', function(){
+            var img = cropper.getDataURL();
+            document.querySelector('.cropped').innerHTML = '<img src="'+img+'">';
+            console.log(img)
+        });
+        document.querySelector('#btnZoomIn').addEventListener('click', function(){
+            cropper.zoomIn();
+        });
+        document.querySelector('#btnZoomOut').addEventListener('click', function(){
+            cropper.zoomOut();
+        });
+        document.querySelector('#btnUpload').addEventListener('click', function () {
+            var imgBase64 = cropper.getDataURL();
+            $.ajax({
+                url:'{% url "account:my_avatar" %}',
+                type:'POST',
+                data:{'avatar':imgBase64 , csrfmiddlewaretoken:'{{ csrf_token }}'},
+                success: function (e) {
+                    if(e=='1'){
+                        window.location.href='{% url "account:my_info" %}'
+                    }
+                },
+            });
+        })
+    };
+</script>
 </body>
 </html>

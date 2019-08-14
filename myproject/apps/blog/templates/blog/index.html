@@ -16,7 +16,7 @@
         {% if request.user.is_authenticated %}
             <div class="col-xs-6 col-md-4">
                 <h2>Avatar</h2>
-                <img src="{{ userinfo.avatar.url }}" class="img-circle" width="270px" id="my_photo" name="user_face">
+                <img src="{{ avatar }}" class="img-circle" id="my_photo" name="user_face">
             </div>
         {% endif %}
     </div>

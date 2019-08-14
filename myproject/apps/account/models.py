@@ -19,7 +19,7 @@ class UserInfo(models.Model):
     profession = models.CharField(max_length=100, blank=True)
     address = models.CharField(max_length=100, blank=True)
     aboutme = models.TextField(blank=True)
-    avatar = models.ImageField(blank=True, upload_to='avatar/', help_text='大小请勿超过5M!', default='avatar/Avatar.jpg')
+    avatar = models.CharField(max_length=10000, blank=True, default=os.path.join('avatar', 'Avatar.png'))
 
     def __str__(self):
         return "user:{}".format(self.user.username)

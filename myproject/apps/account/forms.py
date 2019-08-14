@@ -29,11 +29,6 @@ class UserInfoForm(forms.ModelForm):
         model = UserInfo
         fields = ("school", "company", "profession", "address", "aboutme", "avatar")
 
-class AvatarForm(forms.ModelForm):
-    class Meta:
-        model = UserInfo
-        fields = ("avatar", )
-
 class UserForm(forms.ModelForm):
     class Meta:
         model = User
