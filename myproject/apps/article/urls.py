@@ -17,7 +17,7 @@ from django.conf import settings
 from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path, include, re_path
-from . import views
+from . import views, list_views
 
 app_name = 'article'
 urlpatterns = [
@@ -29,5 +29,7 @@ urlpatterns = [
     re_path('article-detail/(?P<id>\d+)/(?P<slug>[-\w]+)/$', views.article_detail, name='article_detail'),
     path('del-article/', views.del_article, name='del_article'),
     path('edit-article/<int:article_id>', views.edit_article, name='edit_article'),
+    path('list-article-titles/', list_views.article_titles, name='article_titles'),
+    path('article-content/<int:id>/<slug:slug>', list_views.article_detail, name='article_content'),
 ]
 
