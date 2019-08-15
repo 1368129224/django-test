@@ -2,22 +2,60 @@
 {% load staticfiles %}
 {% block title %}articles list{% endblock %}
 {% block content %}
-<div>
-<table class="table table-hover">
-    <tr>
-        <td>序号</td>
-        <td>标题</td>
-        <td>栏目</td>
-        <td>操作</td>
-    </tr>
-    {% for article in articles %}
-    <tr id="{{ article.id }}">
-        <td>{{ forloop.counter }}</td>
-        <td>{{ article.title }}</td>
-        <td>{{ article.column }}</td>
-        <td>--</td>
-    </tr>
-    {% endfor %}
-</table>
-</div>
+    <link href="https://cdn.staticfile.org/font-awesome/5.10.0-12/css/all.min.css" rel="stylesheet">
+    <div>
+        <table class="table table-hover">
+            <tr>
+                <td>序号</td>
+                <td>标题</td>
+                <td>栏目</td>
+                <td>操作</td>
+            </tr>
+            {% for article in articles %}
+                <tr id="{{ article.id }}">
+                    <td>{{ forloop.counter }}</td>
+                    <td><a href="{{ article.get_absolute_url }}">{{ article.title }}</a></td>
+                    <td>{{ article.column }}</td>
+                    <td>
+                        <a name="edit" href="{% url 'article:edit_article' article.id %}">
+                            <i class="fa fa-pencil-alt" style="margin-left:20px;color: black"></i>
+                        </a>
+                        <a name="delete" href="javascript:" onclick="del_article(this, {{ article.id }})">
+                            <i class="fa fa-trash-alt" style="margin-left:20px;color: black"></i>
+                        </a>
+                    </td>
+                </tr>
+            {% endfor %}
+        </table>
+    {% include 'paginator.html' %}
+    </div>
+    <script>
+function del_article(the, article_id) {
+    var article_name = $(the).parents('tr').children('td').eq(1).text();
+    layer.open({
+        type:1,
+        skin:'layui-layer-rim',
+        area:['400px', '200px'],
+        title:'删除文章',
+        content:'<div class="tex-center" style="margin-top:20px"><p>是否确认删除《'+article_name+'》</p></div>',
+        btn:['确定', '取消'],
+        yes:function () {
+            $.ajax({
+                url:'{% url "article:del_article" %}',
+                type:'POST',
+                data:{'article_id':article_id, csrfmiddlewaretoken:'{{ csrf_token }}'},
+                success: function (e) {
+                    if(e=='1'){
+                        parent.location.reload();
+                        layer.msg('已删除。')
+                    }
+                    else{
+                        layer.msg()
+                    }
+                }
+            })
+        }
+    })
+}
+    </script>
 {% endblock %}
