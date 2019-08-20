@@ -1,66 +1,175 @@
 {% load static %}
+{% load article_tags %}
+{% with total_likes=article.user_like.count users_like=article.user_like.all %}
 
-<!DOCTYPE html>
-<html lang="zh-cn">
-<head>
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>article content</title>
-    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
-    <link rel="stylesheet" href="{% static 'editor/css/editormd.preview.css' %}">
-</head>
+    <!DOCTYPE html>
+    <html lang="zh-cn">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>article content</title>
+        <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+        <link rel="stylesheet" href="{% static 'editor/css/editormd.preview.css' %}">
+        <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/5.10.0-12/css/all.min.css">
+    </head>
 
-{#<body style="width: 100%">#}
-{#{% include "article/header.html" %}#}
-{#<header>#}
-{#    <h1>{{ article.title }}</h1>#}
-{#    <p>{{ article.author.username }}</p>#}
-{#</header>#}
-{#<div id="editormd-view">#}
-{#    <textarea id="append-test" style="display: none">#}
-{#        {{ article.body }}#}
-{#    </textarea>#}
-{#</div>#}
-
-<body>
-{% include "header.html" %}
-<div class="container" style="width: 100%">
-        <div>
-            <h1>{{ article.title }}</h1>
-            <p>{{ user.username }}</p>
-            <div id="editormd-view">
-        <textarea id="append-test" style="display:none;">
-{{ article.body }}
-        </textarea>
+    <body style="width: 100%;">
+    {% include "header.html" %}
+    <div class="container" style="width: 100%">
+        <div class="row">
+            <div class="col-md-9">
+                <h1>{{ article.title }}</h1>
+                <p><a href="{% url 'article:author_articles' article.author.username %}">{{ article.author.username }}</a></p>
+                <div>
+                    <span>{{ total_likes }} like{{ total_likes | pluralize }}<i class="fa fa-thumbs-up" style="margin-left:5px;color: black"></i></span>
+                    <span>{{ total_views }} view{{ total_views | pluralize }}</span>
+                </div>
+                <div>
+                    <p><span><strong>Tags:&nbsp</strong></span>{{ article.article_tag.all | join:', ' }}</p>
+                </div>
+                <div id="editormd-view">
+                    {{ article.body | markdown }}
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div>
+                    <h3>最受欢迎的文章</h3>
+                    <ol>
+                        {% for article_rank in most_viewed %}
+                            <li>
+                                <a href="{{ article_rank.get_url_path }}">{{ article_rank.title }}</a>
+                            </li>
+                        {% endfor %}
+                    </ol>
+                </div>
+                <hr/>
+                <div>
+                    <h3>最新的文章</h3>
+                    {% latest_articles 4 %}
+                </div>
+                <hr/>
+                <div>
+                    <h3>最多评论的文章</h3>
+                    {% most_commented_articles as most_comments %}
+                    <ol>
+                        {% for comment_article in  most_comments %}
+                            <li>
+                                <a href="{{ comment_article.get_url_path }}">{{ comment_article.title }}</a>
+                            </li>
+                        {% endfor %}
+                    </ol>
+                </div>
+            <hr/>
+            <div>
+                <h3>相似推荐文章</h3>
+                {% for similar in similar_articles %}
+                <p><a href="{{ similar.get_url_path }}">{{ similar.title }}</a></p>
+                {% empty %}
+                <p>暂无文章</p>
+                {% endfor %}
+            </div>
             </div>
         </div>
-</div>
+        <div>
+            <p class="text-center">
+                {% if user in users_like %}
+                    <a href="#" onclick="like_article({{ article.id }}, 'dislike')"><i class="fa fa-thumbs-down" style="color: black;"></i></a>
+                {% else %}
+                    <a href="#" onclick="like_article({{ article.id }}, 'like')"><i class="fa fa-thumbs-up" style="color: black;"></i></a>
+                {% endif %}
+            </p>
+        </div>
+        <div>
+            <p class="text-center"><strong>点赞本文的读者</strong></p>
+            {% for user in users_like %}
+                <p class="text-center">{{ user.username }}</p>
+            {% empty %}
+                <p class="text-center">还没有人对此文章表态</p>
+            {% endfor %}
+        </div>
+        <div>
+            <hr>
+            <div>
+                <h3>本文有{{ article.comments.count }}评论</h3>
+                {% for comment in article.comments.all %}
+                    <div>
+                        <p><strong>{{ comment.commentator }}</strong>说:</p>
+                        <p style="margin-left:40px;">{{ comment.body }}</p>
+                    </div>
+                {% empty %}
+                    <p>没有评论</p>
+                {% endfor %}
+                <hr>
+                <h3></span>看文章，发评论，不要沉默</h3>
+                <form action="{% url 'article:article_content' article.id article.slug %}" method="post" class="form-horizontal" role="form">{% csrf_token %}
+                    <div class="form-group">
+                        <label for="inputEmail3" class="col-sm-2 control-label">评论员</label>
+                        <div class="col-sm-10">
+                            {{ comment_form.commentator}}
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail3" class="col-sm-2 control-label">评论</label>
+                        <div class="col-sm-10">
+                            {{ comment_form.body }}
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <p><input type="submit" name="" value=" 发 评 论 " class="btn btn-primary"></p>
+                        </div>
+                    </div>
+                </form>
+            </div>
 
-{% include "footer.html" %}
-<script src="{% static 'js/jquery-3.4.1.min.js' %}"></script>
-<script src="{% static 'js/popper.min.js' %}"></script>
-<script src="{% static 'js/bootstrap.js' %}"></script>
-<script src='{% static "layer/layer.js" %}'></script>
-<script src='{% static "editor/lib/marked.min.js" %}'></script>
-<script src='{% static "editor/lib/prettify.min.js" %}'></script>
-<script src='{% static "editor/lib/raphael.min.js" %}'></script>
-<script src='{% static "editor/lib/underscore.min.js" %}'></script>
-<script src='{% static "editor/lib/sequence-diagram.min.js" %}'></script>
-<script src='{% static "editor/lib/flowchart.min.js" %}'></script>
-<script src='{% static "editor/lib/jquery.flowchart.min.js" %}'></script>
-<script src='{% static "editor/editormd.js" %}'></script>
-<script type="text/javascript">
-    $(function(){
-        editormd.markdownToHTML("editormd-view", {
-            htmlDecode: "style, script, iframe",
-            emoji:true,
-            taskList:true,
-            tex:true,
-            flowChart:true,
-            sequenceDiagram:true,
+        </div>
+    </div>
+
+    {% include "footer.html" %}
+    <script src="{% static 'js/jquery-3.4.1.min.js' %}"></script>
+    <script src="{% static 'js/popper.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.js' %}"></script>
+    <script src='{% static "layer/layer.js" %}'></script>
+    <script src='{% static "editor/lib/marked.min.js" %}'></script>
+    <script src='{% static "editor/lib/prettify.min.js" %}'></script>
+    <script src='{% static "editor/lib/raphael.min.js" %}'></script>
+    <script src='{% static "editor/lib/underscore.min.js" %}'></script>
+    <script src='{% static "editor/lib/sequence-diagram.min.js" %}'></script>
+    <script src='{% static "editor/lib/flowchart.min.js" %}'></script>
+    <script src='{% static "editor/lib/jquery.flowchart.min.js" %}'></script>
+    <script src='{% static "editor/editormd.js" %}'></script>
+    <script type="text/javascript">
+        $(function(){
+            editormd.markdownToHTML("editormd-view", {
+                htmlDecode: "style, script, iframe",
+                emoji:true,
+                taskList:true,
+                tex:true,
+                flowChart:true,
+                sequenceDiagram:true,
+            });
         });
-    });
-</script>
-</body>
-</html>
+        function like_article(article_id, action) {
+            $.ajax({
+                url:"{% url 'article:like_article' %}",
+                type:"post",
+                data:{csrfmiddlewaretoken:'{{ csrf_token }}', 'id':article_id, 'action':action},
+                success: function (e) {
+                    if(e=='1'){
+                        layer.msg('点赞成功');
+                        window.location.reload();
+                    }else if(e=='-1'){
+                        layer.msg('系统错误，请联系管理员。');
+                        location.reload();
+                    }else {
+                        layer.msg('我会继续努力的');
+                        location.reload();
+                    }
+                }
+            });
+        }
+    </script>
+    </body>
+    </html>
+{% endwith %}

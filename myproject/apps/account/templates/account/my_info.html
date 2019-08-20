@@ -1,7 +1,17 @@
-{% extends "base.html" %}
 {% load static %}
-{% block title %}My information{% endblock %}
-{% block content %}
+
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My information</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+</head>
+<body>
+{% include "header.html" %}
+<div class="container">
     <div class="text-center">
         <h1>My Information</h1>
         <div class="row">
@@ -45,17 +55,30 @@
             </div>
 
             <div class="col-md-6">
-                {% if userinfo.avatar %}
-                    <img src="{{ avatar }}" class="img-circle" id="my_photo" name="user_face">
-                {% else %}
-                    <img name="user_face" src="{% static 'image/Avatar.jpg' %}" class="img-circle" width="270px" id="my_photo">
-                {% endif %}
+                <img src="{{ avatar }}" class="img-circle" id="my_photo" name="user_face">
                 <div style="margin-top: 40px">
-                    <a href="{% url 'account:my_avatar' %}">
-                        <button class="btn btn-primary" >upload my photo</button>
-                    </a>
+{#                    <a href="{% url 'account:my_avatar' %}">#}
+                        <button class="btn btn-primary" onclick="uploadAvatar()" >upload my photo</button>
+{#                    </a>#}
                 </div>
             </div>
         </div>
     </div>
-{% endblock %}
+</div>
+{% include "footer.html" %}
+<script src="{% static 'js/jquery-3.4.1.min.js' %}"> </script>
+<script src="{% static 'js/popper.min.js' %}"></script>
+<script src="{% static 'js/bootstrap.js' %}"></script>
+<script src="{% static 'layer/layer.js' %}"></script>
+<script>
+function uploadAvatar() {
+    layer.open({
+        title:'上传头像',
+        area:['860px', '650px'],
+        type:2,
+        content:"{% url 'account:my_avatar' %}",
+    });
+}
+</script>
+</body>
+</html>

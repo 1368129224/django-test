@@ -36,7 +36,19 @@
                     </div>
                 </div>
                 <div class="row" style="margin-top: 10px;">
-{#                    <div class="col-md-10 text-left">{{article_post_form.body}}</div>#}
+                    <div class="col-md-2 text-right"><span>标签:</span></div>
+                    <div class="col-md-10 text-left">
+                        {% for article_tag in article_tags %}
+                            <label class="checkbox-row">
+                                <input class="" type="checkbox" id="{{ article_tag.id }}" name="article_tag" value="{{ article_tag.tag }}">{{ article_tag.tag }}
+                            </label>
+                        {% empty %}
+                            <p>你没有创建标签。</p>
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 10px;">
+                    {#                    <div class="col-md-10 text-left">{{article_post_form.body}}</div>#}
                     <div id="editormd" class="col-md-10 text-left">
                         <textarea style="display:none;" id="id_body"></textarea>
                     </div>
@@ -65,27 +77,31 @@
     })
 </script>
 <script type="text/javascript">
-            function publish_article(){
-                var title = $("#id_title").val();
-                var column_id = $("#which_column").val();
-                var body = $("#id_body").val();
-                $.ajax({
-                    url: "{% url 'article:article_post' %}",
-                    type: "POST",
-                    data: {"title":title, "body":body, "column_id":column_id, csrfmiddlewaretoken:'{{ csrf_token }}'},
-                    success: function(e){
-                        console.log(e);
-                        if(e=="1"){
-                            layer.msg("发布成功");
-                            location.href = "{% url 'article:article_list' %}";
-                        }else if(e=="0"){
-                            layer.msg("发布失败，请与管理员联系。") ;
-                        }else{
-                            layer.msg("项目名称必须写，不能空。");
-                        }
-                    },
-                });
-            }
-        </script>
+    function publish_article(){
+        var title = $("#id_title").val();
+        var column_id = $("#which_column").val();
+        var body = $("#id_body").val();
+        var article_tags = [];
+        $.each($('input[name="article_tag"]:checked'), function () {
+            article_tags.push($(this).val());
+        });
+        $.ajax({
+            url: "{% url 'article:article_post' %}",
+            type: "POST",
+            data: {"title":title, "body":body, "column_id":column_id, "tags": JSON.stringify(article_tags), csrfmiddlewaretoken:'{{ csrf_token }}'},
+            success: function(e){
+                console.log(e);
+                if(e=="1"){
+                    layer.msg("发布成功");
+                    location.href = "{% url 'article:article_list' %}";
+                }else if(e=="0"){
+                    layer.msg("发布失败，请与管理员联系。") ;
+                }else{
+                    layer.msg("项目名称必须写，不能空。");
+                }
+            },
+        });
+    }
+</script>
 </body>
 </html>

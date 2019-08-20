@@ -10,8 +10,6 @@
     <link rel="stylesheet" href="{% static 'css/cropbox.css' %}" />
 </head>
 <body>
-{% include "header.html" %}
-
 <style>
     body
     {
@@ -25,10 +23,8 @@
     }
     .action
     {
-
         width: 500px;
         height: 30px;
-        margin: 10px 20%;
     }
     .cropped
     {
@@ -36,7 +32,7 @@
         width: 198px;
         height: 198px;
         position: absolute;
-        bottom: 20%;
+        bottom: 10%;
     }
     #image{
         margin-left: 10%;
@@ -62,8 +58,6 @@
     </div>
 
 </div>
-
-{% include "footer.html" %}
 
 <script src="{% static 'js/jquery-3.4.1.min.js' %}"> </script>
 <script src="{% static 'js/popper.min.js' %}"></script>
@@ -91,7 +85,6 @@
         document.querySelector('#btnCrop').addEventListener('click', function(){
             var img = cropper.getDataURL();
             document.querySelector('.cropped').innerHTML = '<img src="'+img+'">';
-            console.log(img)
         });
         document.querySelector('#btnZoomIn').addEventListener('click', function(){
             cropper.zoomIn();
@@ -107,7 +100,7 @@
                 data:{'avatar':imgBase64 , csrfmiddlewaretoken:'{{ csrf_token }}'},
                 success: function (e) {
                     if(e=='1'){
-                        window.location.href='{% url "account:my_info" %}'
+                        location.href='{% url "account:my_info" %}'
                     }
                 },
             });

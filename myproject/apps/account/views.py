@@ -1,10 +1,10 @@
 import os
 import base64
-from myproject.settings import BASE_DIR, MEDIA_ROOT, MEDIA_URL
+from django.conf import settings
 from django.shortcuts import render, HttpResponse, get_object_or_404
 from django.http import HttpResponseRedirect
 from django.contrib.auth.decorators import login_required
-from PIL import Image
+from django.urls import reverse
 from .forms import RegistrationFrom, UserProfileForm, UserInfoForm, UserForm
 from .models import UserInfo, UserProfile
 
@@ -20,9 +20,9 @@ def register(request):
             new_profile = userprofile_form.save(commit=False)
             new_profile.user = new_user
             new_profile.save()
-            return HttpResponse('registering succeed.')
+            return HttpResponseRedirect(reverse('account:login'))
         else:
-            return HttpResponse('register info error!')
+            return render(request, 'account/register.html', {'form': user_form, 'profile_form': userprofile_form})
     else:
         user_form = RegistrationFrom()
         userprofile_form = UserProfileForm()
@@ -32,7 +32,7 @@ def register(request):
 def my_info(request):
     userprofile = UserProfile.objects.get(user=request.user) if hasattr(request.user, 'userprofile') else UserProfile.objects.create(user=request.user)
     userinfo = UserInfo.objects.get(user=request.user) if hasattr(request.user, 'userinfo') else UserInfo.objects.create(user=request.user)
-    return render(request, "account/my_info.html", {"user":request.user, "userinfo":userinfo, "userprofile":userprofile, 'avatar': MEDIA_URL + userinfo.avatar})
+    return render(request, "account/my_info.html", {"user":request.user, "userinfo":userinfo, "userprofile":userprofile, 'avatar': settings.MEDIA_URL + userinfo.avatar})
 
 @login_required(login_url='/account/login/')
 def change_my_info(request):
@@ -80,17 +80,17 @@ def my_avatar(request):
         img_name = str(request.user.id) + '.png'
         if userinfo.avatar != os.path.join('avatar', 'Avatar.jpg'):
             old_avatar = userinfo.avatar
-            avatar_path = os.path.join(MEDIA_ROOT, old_avatar)
+            avatar_path = os.path.join(settings.MEDIA_ROOT, old_avatar)
             print(avatar_path)
             if os.path.exists(avatar_path):
                 os.remove(avatar_path)
                 print('Deleted old avatar.')
-        with open(os.path.join(os.path.join(MEDIA_ROOT,'avatar'), img_name), 'wb')as f:
+        with open(os.path.join(os.path.join(settings.MEDIA_ROOT,'avatar'), img_name), 'wb')as f:
             f.write(img)
         userinfo.avatar = os.path.join('avatar', img_name)
         userinfo.save()
         return HttpResponse('1')
     else:
-        return render(request, 'account/change_avatar.html', {'avatar': MEDIA_URL + userinfo.avatar})
+        return render(request, 'account/change_avatar.html', {'avatar': settings.MEDIA_URL + userinfo.avatar})
 
 

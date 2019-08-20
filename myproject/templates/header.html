@@ -6,8 +6,11 @@
         <li class="nav-item">
             <a class="nav-link" href="{% url 'blog:blog' %}">BLOG</a>
         </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{% url 'article:article_titles' %}">Article</a>
+        </li>
     </ul>
-    <ul class="navbar-nav ml-auto">
+    <ul class="navbar-nav ml-auto" style="padding-right: 60px;">
         {% if user.is_authenticated %}
             <li class="nav-item dropdown">
                 <a class="nav-link" href="#" data-toggle="dropdown">{{ user.username }}</a>
@@ -15,14 +18,18 @@
                     <a class="dropdown-item" href="{% url 'account:my_info' %}">我的信息</a>
                     <a class="dropdown-item" href="{% url 'article:article_column' %}">后台管理</a>
                     <a class="dropdown-item" href="{% url 'account:password_change' %}">修改密码</a>
+                    <a class="dropdown-item" href="{% url 'account:logout' %}">Sign out</a>
                 </div>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="{% url 'account:logout' %}">LOGOUT</a>
-            </li>
+{#            <li class="nav-item">#}
+{#                <a class="nav-link" href="{% url 'account:logout' %}">Sign out</a>#}
+{#            </li>#}
         {% else %}
             <li class="nav-item">
-                <a class="nav-link" href="{% url 'account:login' %}">LOGIN</a>
+                <a class="nav-link" href="{% url 'account:login' %}">Sign in</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{% url 'account:register' %}">Sign up</a>
             </li>
         {% endif %}
     </ul>

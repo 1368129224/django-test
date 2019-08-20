@@ -1,0 +1,110 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>article tags</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/5.10.0-12/css/all.min.css">
+</head>
+
+<body style="width: 100%;">
+{% include "header.html" %}
+
+<div class="row" style="width: 100%">
+    <div class="col-md-2 offset-1" >
+        {% include 'article/leftslider.html' %}
+    </div>
+    <div class="col-md-8" >
+        <div>
+            <h3>添加文章标签</h3>
+            <form class="form-horizontal" action="." method="post">{% csrf_token %}
+                <div style="margin: 15px 0;">
+                    <span style="margin-right: 5px;">文章标签</span>{{ article_tag_form.tag }}
+                    <input type="button" class="btn btn-primary" value="添加" onclick="add_tag()">
+                </div>
+            </form>
+        </div>
+        <hr/>
+        <div>
+            <h3>已有标签列表</h3>
+            <table class="table table-hover">
+                <tr>
+                    <td>序号</td>
+                    <td>文章标签</td>
+                    <td>操作</td>
+                </tr>
+                {% for article_tag in article_tags %}
+                    <tr id={{ forloop.counter }}>
+                        <td>{{ forloop.counter }}</td>
+                        <td>{{ article_tag.tag }}</td>
+                        <td>
+                            <a href="javascript:" onclick="del_tag(this, {{ article_tag.id }})">
+                                <i style="color: black" class="fa fa-trash-alt"></i>
+                            </a>
+                        </td>
+                    </tr>
+                {% empty %}
+                    <p>You have no article tags. Please add them.</p>
+                {% endfor %}
+            </table>
+        </div>
+    </div>
+</div>
+
+{% include "footer.html" %}
+<script src="{% static 'js/jquery-3.4.1.min.js' %}"></script>
+<script src="{% static 'js/popper.min.js' %}"></script>
+<script src="{% static 'js/bootstrap.js' %}"></script>
+<script src='{% static "layer/layer.js" %}'></script>
+<script type="text/javascript">
+    function add_tag(){
+        tag = $("#id_tag").val();
+        $.ajax({
+            url: '{% url "article:article_tag" %}',
+            type: "POST",
+            data: {"tag":tag, csrfmiddlewaretoken:'{{ csrf_token }}'},
+            success: function(e){
+                if(e=="1"){
+                    layer.msg("添加成功。");
+                    window.location.reload();
+                } else if(e=='-1') {
+                    layer.msg('请核对信息。')
+                } else{
+                    layer.msg('系统错误，请联系管理员。')
+                }
+            }
+        });
+    }
+
+    function del_tag(the, tag_id){
+        var article_tag = $(the).parents("tr").children("td").eq(1).text();
+        layer.open({
+            type: 1,
+            skin: "layui-layer-rim",
+            area: ["400px", "200px"],
+            title: "删除文章标签",
+            content: '<div class="text-center" style="margin-top:20px"><p>是否确定删除文章标签《'+article_tag+'》</p> </div>',
+            btn:['确定', '取消'],
+            yes: function(){
+                $.ajax({
+                    url: '{% url "article:del_article_tag" %}',
+                    type:"POST",
+                    data: {"tag_id":tag_id, csrfmiddlewaretoken: '{{ csrf_token }}'},
+                    success: function(e){
+                        if(e=="1"){
+                            parent.location.reload();
+                            layer.msg("已删除。");
+                        }else{
+                            layer.msg("删除失败，请联系管理员。");
+                        }
+                    },
+                })
+            },
+        });
+    }
+</script>
+</body>
+</html>

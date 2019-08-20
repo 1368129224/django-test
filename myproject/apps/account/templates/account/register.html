@@ -4,6 +4,12 @@
 {% block content %}
 <div class="text-center">
         <h1 class="">Register</h1>
+    {% if form.errors %}
+        <p>{{ form.errors }}</p>
+    {% endif %}
+    {% if profile_form.errors %}
+        <p>{{ profile_form.errors }}</p>
+    {% endif %}
         <form action="." method="post">
             {% csrf_token %}
             <div class="form-group">
