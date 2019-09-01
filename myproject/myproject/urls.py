@@ -18,10 +18,11 @@ from django.conf import settings
 from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path, include
+from article import list_views as article_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('blog.urls')),
+    path('', article_views.article_titles, name='index'),
     path('account/', include('account.urls')),
     path('article/', include('article.urls')),
     path('image/', include('image.urls')),
