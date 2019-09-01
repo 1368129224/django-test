@@ -55,6 +55,8 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+SESSION_COOKIE_AGE = 259200
+
 ROOT_URLCONF = 'myproject.urls'
 
 TEMPLATES = [

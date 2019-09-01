@@ -100,7 +100,8 @@
                 data:{'avatar':imgBase64 , csrfmiddlewaretoken:'{{ csrf_token }}'},
                 success: function (e) {
                     if(e=='1'){
-                        location.href='{% url "account:my_info" %}'
+                        window.location.reload();
+                        layer.msg('更换头像成功')
                     }
                 },
             });
