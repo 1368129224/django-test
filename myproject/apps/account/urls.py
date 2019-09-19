@@ -24,7 +24,7 @@ app_name = 'account'
 urlpatterns = [
     path('login/', auth_views.LoginView.as_view(template_name='account/login.html'), name='login'),
     path('logout/', auth_views.LogoutView.as_view(template_name='account/logout.html'), name='logout'),
-    path('register/', views.register, name='register'),
+    path('register/', views.registerView.as_view(), name='register'),
     path('password-change/', auth_views.PasswordChangeView.as_view(
             template_name='account/password_change_form.html'
             , success_url='/account/password-change-done/'
@@ -42,8 +42,8 @@ urlpatterns = [
         success_url='/account/password-reset-complete/'
     ), name='password_reset_confirm'),
     path('password-reset-complete/', auth_views.PasswordResetCompleteView.as_view(template_name='account/password_reset_complete.html'), name='password_reset_complete'),
-    path('my-info/', views.my_info, name='my_info'),
-    path('change-info/', views.change_my_info, name='change_my_info'),
-    path('my-avatar/', views.my_avatar, name='my_avatar'),
+    path('my-info/', views.my_info.as_view(), name='my_info'),
+    path('change-info/', views.change_my_info.as_view(), name='change_my_info'),
+    path('my-avatar/', views.my_avatar.as_view(), name='my_avatar'),
 ]
 

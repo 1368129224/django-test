@@ -22,10 +22,9 @@ from article import list_views as article_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', article_views.article_titles, name='index'),
+    path('', article_views.article_titles.as_view(), name='index'),
     path('account/', include('account.urls')),
     path('article/', include('article.urls')),
-    path('image/', include('image.urls')),
 ]
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

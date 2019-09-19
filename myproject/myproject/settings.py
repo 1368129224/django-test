@@ -40,8 +40,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'account',
     'article',
-    'image',
-    'sorl.thumbnail',
 ]
 
 MIDDLEWARE = [
@@ -85,7 +83,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'myblog',
         'USER': 'root',
-        'PASSWORD': 'Zzc@1214',
+        'PASSWORD': 'zzc()1214',
         'HOST': 'www.zooter.com.cn',
         'PORT': '3306',
     }
